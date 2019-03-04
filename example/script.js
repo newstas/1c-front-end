@@ -1,5 +1,5 @@
 var canvas = document.getElementById("sandbox"),
-context = canvas.getContext("2d");
+context = canvas.getContext("2d"),
 square, circle;
 
 square = new Path2D();

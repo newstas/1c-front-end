@@ -16,4 +16,4 @@ circle = new Path2D();
 circle.arc(150, 150, 100, 0, 2 * Math.PI);
 
 /* заливаем контур */
-context.full(circle);
+context.fill(circle);

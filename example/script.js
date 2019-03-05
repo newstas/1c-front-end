@@ -1,19 +1,16 @@
 var canvas = document.getElementById("sandbox"),
 context = canvas.getContext("2d"),
-square, circle;
+line = new Path2D();
 
-square = new Path2D();
-square.moveTo(50, 50);
-square.lineTo(250, 50);
-square.lineTo(250, 250);
-square.lineTo(50, 250);
-square.lineTo(50, 50);
+line.moveTo(0, 0);
+line.lineTo(300, 300);
 
-/* обводим контур */
-context.stroke(square);
+context.lineWidth = 5;
+context.stroke(line);
 
-circle = new Path2D();
-circle.arc(150, 150, 100, 0, 2 * Math.PI);
+context.fillStyle = "red";
+context.fillRect(0, 0, 200, 200);
 
-/* заливаем контур */
-context.fill(circle);
+/* красный: 0%, зеленый: 100%, синий: 0%, прозрачный: 50% */
+context.fillStyle = "rgba(0, 225, 0, 0.5)";
+context.fillRect(100, 100, 300, 300);

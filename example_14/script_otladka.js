@@ -1,6 +1,6 @@
 var field = document.getElementById('field');
 
-function isPime(n) {
+function isPrime(n) {
     for(var i = 2; i < n; ++i) {
         /* если n делится на какое-либо
           из чисел от 2 до n - 1, то оно составное */

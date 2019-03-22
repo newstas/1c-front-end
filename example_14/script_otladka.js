@@ -19,6 +19,6 @@ field.addEventListener("keydown", function(event) {
         /* точка останова */
         debugger;
         number = Number(field.value);
-        alert(isPrime(number) ? "Простое!" "Составное");
+        alert(isPrime(number) ? "Простое!" "Составное!");
     }
 });

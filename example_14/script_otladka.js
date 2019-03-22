@@ -13,7 +13,7 @@ function isPime(n) {
 }
 
 field.addEventListener("keydown", function(event) {
-    var namber, i;
+    var number, i;
     /* если нажата клавиша Enter */
     if(event.which == 13) {
         /* точка останова */

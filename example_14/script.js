@@ -3,8 +3,6 @@ var textarea = document.getElementById("sandbox"),
 
 batton.addEventListener("click", function() {
     var text, words, dictionary = {};
-    /* пердпологается, что школьники решат задачу
-    серией вызовов replace для лишних символов */
     text = textarea.value.replace(/[^A-Za-zА-Яа-яЁё]/g, " ");
     words = text.split(" ").filter(function(word) {
         return word.length > 4;

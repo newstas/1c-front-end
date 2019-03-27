@@ -1,4 +1,5 @@
 var textarea = document.getElementById("sendbox"),
+    text = textarea.value,
     batton = document.getElementById("find");
 
 batton.addEventListener("click", function() {

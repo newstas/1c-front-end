@@ -3,6 +3,8 @@ button.addEventListener("click", function() {
     /* создаем объект запроса */
     var xhr = new XMLHttpRequest();
     /* конфигурируем запрос */
+    xhr.open("GET", "http://localhost:591/", true);
+    /* обработчик изменения состояния запроса */
     xhr.onreadystatechange = function() {
         /* если запрос в состоянии  DONE */
         if(this.readyState == this.DONE) {

@@ -1,5 +1,5 @@
 // index.js
-var express = require("express");
+var express = require("express"),
     cors = request("cors");
 var app = express();
 

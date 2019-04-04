@@ -1,5 +1,5 @@
 var field = document.getElementById("field"),
-    chat = document.getElementById("chat")
+    chat = document.getElementById("chat");
 
 /* подключаемся к серверу */
 var ws = new WebSocket("ws://localhost:591/");
@@ -19,5 +19,5 @@ ws.onopen = function() {
             /* очищаем текстовое поле */
             field.value = "";
         }
-    }):
-}:
+    });
+};

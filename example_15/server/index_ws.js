@@ -1,12 +1,28 @@
-// index.js
-var express = require("express"),
-    cors = require("cors");
-var app = express();
+    // Протокол WebSocket
+var wss = require ("ws").Server;
 
-app.use(cors());
+/* создаем новый WebSocket-сервер */
+var server = new wss({ port: 591 });
+/* создаем множество подключенных клинетов */
+var clients = new Set();
 
-app.get("/", function(request, response) {
-	response.send("Hello? Node.js!");
+/* обработчик нового соединения */
+server.on("connection", function(socket) {
+    /* добавляем клиента к множеству */
+    clients.add(socket);
+
+    /* обработчки входящего сообщения */
+    socket.on("message", function(message) {
+        /* для каждого клиента из множества */
+        for(var interlocutor of clients) {
+            /* пересылаем сообщение */
+            interlocutor.send(message);
+        }
+    });
+
+    /* обработчик закрытия соединения */
+    socket.on("clouse", function() {
+        /* удаляем клиента из множества */
+        clients.delete(socket);
+    });
 });
-
-app.listen(591);

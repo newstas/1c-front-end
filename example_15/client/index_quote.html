@@ -3,23 +3,15 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Клиент</title>
-        <style>
-            html, body {
-                height: 100%;
-                margin: 0;
-            }
-
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        </style>
+        <title>Цитатник</title>
+        <link rel="stylesheet" href="style_quote.css">
     </head>
 
     <body>
-        <button type="button" id="request">Запрос</button>
-        <script src="script.js"></script>
+        <!-- скрывать элемент до тех пора, пока не получим элемент -->
+        <blockquote id="quote" style="display: none;"></blockquote>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="script_quote.js"></script>
     </body>
+
 </html>

@@ -1,12 +1,20 @@
-// index.js
 var express = require("express"),
-    cors = require("cors");
-var app = express();
+    cors = require("cors"),
+    fs = require("fs");
 
+var app = express();
 app.use(cors());
 
-app.get("/", function(request, response) {
-	response.send("Hello? Node.js!");
+app.get("/quote", function(request, response) {
+	fs.readFile("database.txt", "utf-8", function(err, content) {
+        var quotes = content.split("\n");
+        var index = Math.floor(Math.random() * (quotes.length - 1));
+        var result = {
+            number: index + 1,
+            text: quotes[index]
+        };
+        response.send(JSON.stringify(result));
+    });
 });
 
 app.listen(591);

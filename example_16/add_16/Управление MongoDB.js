@@ -2,6 +2,11 @@
 
 Set-Location -Path D:\MongoDB\Server\4.0\bin
 
+// Переход к папке example_16\mongo
+
+Set-Location -Path F:\Stanislav\Workspace\GitHub\1c-front-end\example_16\mongo
+
+
 // mkdir - команда для создания новых каталогов (например для базы данных db)
 
 mkdir
@@ -28,7 +33,7 @@ mongod
 
 // Выбор базы данных
 
-use mydatabase
+use sanbox
 
 // Чтобы проверить какая база данных выбрана в данный момент, выполните
 
@@ -58,13 +63,16 @@ insertOne()
 
 //  Смотрим документ в БД
 
-db.users.find()
+db.humans.find()
 
 // Чтобы вывести документ в более читабельном виде добавим метод pretty()
 
-db.users.find().pretty()
+db.humans.find().pretty()
 
 // Для загузки файла в текущую базу данных применяется функция load(), в которую в качестве параметра передается путь к файлу. В данном случае предполагается, что файл располагается по пути "D:/users.js".
 
 load("D:/users.js")
+
+
+db.sanbox.find().pretty()
 

@@ -1,0 +1,17 @@
+.menu__top31 {
+    display: flex;
+    justify-content: center;
+}
+
+.menu31 {
+    display: flex;
+}
+
+
+.menu__item31 {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 1px;
+    padding: 3px;
+}

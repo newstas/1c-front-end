@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Значение absolute</title>
+        <style>
+            .outer {
+                border: 1px solid lightblue;
+                border-radius: lightgrey;
+                height: 2000px;
+            }
+                
+            .inner {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+            }
+            
+            .inner--red { background-color: red;}
+            .inner--green { background-color: green; }
+            
+            .inner:active {
+                position: absolute;
+                width: auto;
+                height: auto;
+                left: 0;
+                right: 0;
+                top: 100px;
+                bottom: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner inner--red">
+            </div><div class="inner inner--green">
+            </div>
+        </div>
+    </body>
+</html>

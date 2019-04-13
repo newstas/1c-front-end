@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Список дел</title>
+        <link rel="stylesheet" href="bootstrap-3.3.6.min.css">
+        <style>
+            .todo-item {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Список дел</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <ul id="list" class="list-group">
+                        <li class="list-group-item">
+                            <input type="text" id="field" class="form-control" placeholder="Что нужно сделать?">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="remove-dialog" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Вы действительно хотите удалить выбранные пункты?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Закрыть
+                </button>
+                <button type="button" id="remove-dialog__ok" class="btn btn-danger">
+                    Удалить
+                </button>
+            </div>
+
+        </div>
+        </div>
+        </div>
+
+        <script src="jquery-2.1.4.min.js"></script>
+        <script src="bootstrap-3.3.6.min.js"></script>
+        
+        <script>
+            $("#field").on("keydown", function(event) {
+                var item;
+                if(event.which == 13) {
+                    item = $("<li></li>");
+                    item.addClass("list-group-item todo-item");
+                    item.html($(this).val());
+                    $(this).val("");
+                    item.click(function() {
+                        $(this).toggleClass("list-group-item-danger");
+                    });
+                    $("#list").append(item);
+                }
+            });
+
+            $(document).on("keydown", function() {
+                if(event.which == 46) {
+                    $("#remove-dialog").modal("show");
+                } 
+            });
+
+            function removeItems(event) {
+                $(".list-group-item-danger").remove();
+                $("#remove-dialog").modal("hide");
+            };
+
+            $("#remove-dialog").on("keydown", function(event) {
+                if(event.which == 13) {
+                    removeItems();
+                }
+            });
+
+            $("#remove-dialog__ok").on("click", removeItems);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,214 @@
+6,1 СЛОВАРИ
+
+6.1.1 Создание
+
+// созадем словарь в виде объкта
+var car = {
+    model: "Delorean DMC-12",
+    volum: 2849,
+    power: 150
+};
+
+
+// Создаем пустой словарь
+
+var dictionary = {};
+
+
+6.1.2 Использование
+
+// доступ к свойствам - точечная нотация
+
+car.volum
+<:2849
+
+// синтаксис с квадратными скобками
+
+car["volum"]
+<:2849
+
+// если запрашиваемого клча нет в словаре, то возвращается специальное пустое значение undefined
+
+car.foo
+<:undefined
+
+
+6.1.3 Изменения
+
+// чтобы добавить значение в словарь, нужно присвоить его по соответсвующемоу ключу
+
+car.mass = 1200
+<:1200
+car
+<:{model: "Delorean DMC-12", volum: 2849, power: 150, mass: 1200}{model: "Delorean DMC-12", volum: 2849, power: 150, mass: 1200}
+   // если развернуть
+   mass: 1200
+   model: "Delorean DMC-12"
+   power: 150
+   volum: 2849
+   __proto__: Object
+  
+// для удаления значения использут ключевое слово delete
+
+delete car.mass;
+<:true
+
+car
+<:{model: "Delorean DMC-12", volum: 2849, power: 150}
+
+
+
+6.1.4 Итерирование
+
+// если требуется перебрать ключи словаря, используют конструкцию for...in
+
+var key;
+for(key in car) {
+    console.log(key + ": " + car[key]);
+}
+<:model: Delorean DMC-12
+<:volum: 2849
+<:power: 150
+
+
+
+6.2 МАССИВЫ
+
+6.2.1 Создание
+
+//Создаем массив
+
+var colors = ["red", "green", "blue"];
+
+// Постой массив создается анологично пустому словарю
+
+var array = [];
+
+6.2.2 Использование
+
+// Чтобы использовать элемент с определенным индексом (номером), нужно записать этот номер в квадратных скобках после имени массива
+
+colors[0]
+<:"red"
+
+var index = 2;
+<:undefined
+
+colors[index]
+<:"blue"
+
+colors[index - 1]
+<:"green"
+
+// ключевое слово length используется в массиве для определения колличества элементов 
+
+colors.length
+3
+
+
+6.2.3 Изменение
+
+// удалит последний элемент
+
+colors.pop();
+<:"blue"
+
+// colors.push("value") - обавит объект value в конце
+
+colors.push("white");
+<:3
+
+// colors.splice(index,1) - удалить элемент с номером index
+
+colors.splice(0,1);
+["red"]
+
+// colors.splice(index,0,value) - сдвинет элементы, начиная с номера index, вправо и на освободившееся место вставит объект value
+
+colors.splice(1,0,"red");
+<:[]
+
+// в итоге получаем массив
+
+colors
+<:(3) ["green", "red", "white"]
+
+
+6.2.4 Итерирование
+
+// для обработки массивов очень часто используют цикл for
+
+var numbers = [], i;
+for(i = 0; i < 10; ++i) {
+    numbers.push(i);
+}
+<:10
+
+// запись ++i эквивалентна i = i + 1 и  i += 1
+
+numbers
+<:(10) [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for(i = 0; i < numbers.length; ++i) {
+    numbers[i] *= 2;
+}
+<:18
+
+numbers
+<:(10) [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+
+
+6.3 ПРИМИТИВЫ И ОБЪЕКТЫ
+
+// Типы данных разделяются в js на примитивные (строки, числа, логический тип) и ссылочные (массивы и объекты)
+
+// source и target в примитивных перемеменных указывают на независимые данные после преобразования
+
+var source, target;
+source = 42;
+
+target = source;
+
+target += 1;
+console.log(source, target);
+<: 42 43
+
+
+var source, target;
+source = { number: 42 };
+
+target = source;
+
+target.number += 1;
+console.log(source.number, target.number);
+<: 43 43
+
+
+// по вышеназванной причине, стоит учитывать тип переменных при передаче агрументов
+
+
+var parameter = 42;
+
+function f(argument) {
+    argument += 1;
+    console.log(argument);
+}
+
+f(parameter);
+console.log(parameter);
+<: 43
+<: 42
+
+
+var parameter = { number: 42 };
+
+function f(argument) {
+    argument.number += 1;
+    console.log(argument.number);
+}
+
+f(parameter);
+console.log(parameter.number);
+<: 43
+<: 43
+

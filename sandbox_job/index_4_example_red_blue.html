@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>getElementById example</title>
+        <script>
+            function changeColor(newColor) {
+                var elem = document.getElementById("text");
+                elem.style.color = newColor;
+            }
+        </script>
+    </head>
+    <body>
+        <p id="text">Меняю цвет текста</p>
+        <button onclick="changeColor('blue');">blue</button>
+        <button onclick="changeColor('red');">red</button>
+    </body>
+</html>

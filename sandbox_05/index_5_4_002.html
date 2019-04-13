@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chess board</title>
+        <style>
+div {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.first {
+    clear: left;
+}
+.blue {
+    background: blue;
+}
+.white {
+    background: white;
+}
+        </style>
+    </head>
+    <body>
+        <script>
+            var i, j, clas;
+            for (i = 0; i < 8; i++) {
+                for (j = 0; j < 8; j++) {
+                    clas = '';
+                    if (j === 0) clas = 'first ';
+                    else if (j === 7) clas = 'last ';
+                    clas += (i % 2 == j % 2) ? 'white' : 'blue';
+                    
+                    var field = document.createElement('div');
+                    field.className = clas;
+                    document.body.appendChild(field);
+                }
+            }
+        </script>
+    </body>
+</html>

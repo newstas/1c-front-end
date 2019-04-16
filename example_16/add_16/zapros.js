@@ -19,3 +19,6 @@ db.humans.insertMany([
         age: 27
     }
 ])
+
+// Выбираем документы, у которых поле name имеет значение "John"
+db.humans.find({ name: "John" })

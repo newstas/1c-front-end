@@ -7,3 +7,15 @@ db.humans.insert({ name: "Mary", age: 23 })
 // Запрос выводящий все домкументов
 var documents = db.humans.find();
 documents.pretty()
+
+// Добавляем еще несколько документов в нашу коллекцию
+db.humans.insertMany([
+    {
+        name: "John",
+        age: 25
+    },
+    {
+        name: "Анна",
+        age: 27
+    }
+])

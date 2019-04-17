@@ -1,8 +1,22 @@
 
+// Инициализация конфигурационного файла packeqe.json
+// packeqe.json хранит список зависимостей
 
-//Устанавливаем модуль Express
+    npm init --force
+
+// Создание сервреа
+// Устанавливаем модуль Express
+// Создается папка node_modules
 
     npm install express --save
+
+// Если удалить папка node_modules, то восстановить можно командлетом
+
+    npm install
+
+// Удалеям любой модуль
+
+    npm uninstall package --save
 
 // Устанвливаем молудь CORS
 
@@ -10,7 +24,7 @@
 
 // Установка модуля WebSocket
 
-    npm install ws --save 
+    npm install ws --save
 
 // Установка модуля mongodb для связи Node.js с базами данных MongoDB
 

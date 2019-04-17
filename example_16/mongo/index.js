@@ -1,7 +1,7 @@
 var mongoClient = require("mongodb").MongoClient,
-    url = "mongodb://localhost/sandbox";
+    url = "mongodb://127.0.0.1:27017/sandbox";
 
-// подключаемся к базе данных
+// подключаемся к базе данныч
 mongoClient.connect(url, function(err, db) {
     //if(err) console.log(err.stack); // получаем коллекцию humans
     var humans = db.collection("humans");

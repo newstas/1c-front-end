@@ -8,6 +8,10 @@
 
     npm install cors --save
 
+// Установка модуля WebSocket
+
+    npm install ws --save 
+
 // Установка модуля mongodb для связи Node.js с базами данных MongoDB
 
     npm install mongodb --save

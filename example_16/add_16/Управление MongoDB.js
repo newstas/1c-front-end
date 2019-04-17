@@ -19,6 +19,9 @@ rm
 
 npm install mongodb --save
 
+// Устанвливаем нужную версию MongoDB
+
+npm install mongodb@2.2.33 --save
 
 // Вывод списка баз данных
 
@@ -75,4 +78,3 @@ load("D:/users.js")
 
 
 db.sanbox.find().pretty()
-

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Выпадающие списки</title>
+    </head>
+    <body>
+        <div id="app">
+            <div>
+                <input type="number" v-model="n">
+                <p>Удвоенное число: {{ n * 2 }}</p>
+            </div>
+            <div>
+                <input type="checkbox" v-model="checked">
+                <p>{{ checked ? "YES" : "NO" }}</p>
+            </div>
+            <div>
+                <input type="text" v-model="message">
+                <p>{{ message.split("").reverse().join("") }}</p>
+            </div>
+        </div>
+    </div>
+        <script src="vue.js"></script>
+        <script src="script_542.js"></script>
+    </body>
+</html>

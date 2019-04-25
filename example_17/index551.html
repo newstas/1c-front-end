@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Классы</title>
+        <link rel="stylesheet" href="style_551.css">
+    </head>
+    <body>
+        <div id="app">
+            <label>
+                <input type="checkbox" v-model="headerStyle.blue" >Синий
+            </label>
+            <label>
+                <input type="checkbox" v-model="headerStyle.underlined" >Подчёркнутый
+            </label>
+            <h1 v-bint:class="{ 'header--blue': headerStyle.blue,
+              'neader--underlined': headerStyle.underlined}">
+                Заголовок
+            </h1>
+        </div>
+        <script src="vue.js"></script>
+        <script src="script551.js"></script>
+    </body>
+</html>

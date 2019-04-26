@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Текстовые поля</title>
+    </head>
+    <body>
+        <div id="app">
+            <ul>
+                <!-- итерируемся по массиву item и геерируем li -->
+                <li v-for="item in items">
+                    <!-- текущий элемент храниться в переменной item -->
+                    {{ item.text }} &&mdash; {{ $index }}
+                </li>
+            </ul>
+        </div>
+        <script src="vue.js"></script>
+        <script src="script_561.js"></script>
+    </body>
+</html>

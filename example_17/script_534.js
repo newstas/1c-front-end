@@ -1,6 +1,6 @@
 var vm = new Vue({
     el: "#app",
     data: {
-        language: "JPython"
+        language: "Python"
     }
 });

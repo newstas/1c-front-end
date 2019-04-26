@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Рейтинг</title>
+        <link rel="stylesheet" href="style_572.css">
+    </head>
+    <body>
+        <div id="app">
+            <h1>{{ rating }}</h1>
+            <input type="range" v-model="rating" min="1" max="5">
+            <div>
+                <div class="star" v-for="x in Number(rating)"></div>
+            </div>
+        </div>
+        <script src="vue.js"></script>
+        <script src="script_572.js"></script>
+    </body>
+</html>

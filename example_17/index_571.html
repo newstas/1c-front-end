@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Логический элемент</title>
+        <link rel="stylesheet" href="style_571.css">
+    </head>
+    <body>
+        <div id="app" class="schema">
+            <div>
+                <input type="checkbox" v-model="left">
+                <span>&&</span>
+                <input type="checkbox" v-model="right">
+            </div>
+            <div v-bind:class="'schema__result schema__result--' + (left && right)">
+                {{ left && right }}
+            </div>
+        </div>
+        <script src="vue.js"></script>
+        <script src="script_571.js"></script>
+    </body>
+</html>

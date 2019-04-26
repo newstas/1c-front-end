@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    transform: scale(5); translateY(-4px);
+    margin: 0 20px;
+}
+
+.schema {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.schema__result {
+    text-align: center;
+}
+
+.schema__result--true {
+    color: green;
+}
+
+.schema__result--true {
+    color: red;
+}

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Текстовые поля</title>
+        <title>Генерация списков из массивов</title>
     </head>
     <body>
         <div id="app">
@@ -10,7 +10,7 @@
                 <!-- итерируемся по массиву item и геерируем li -->
                 <li v-for="item in items">
                     <!-- текущий элемент храниться в переменной item -->
-                    {{ item.text }} &&mdash; {{ $index }}
+                    {{ item.text }} &mdash; {{ $index }}
                 </li>
             </ul>
         </div>

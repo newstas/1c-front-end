@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Удвоить.События Vue</title>
+    </head>
+    <body>
+        <div id="app">
+            <select v-model="numbers" multiple size="5">
+                <option v-for="i in 5">{{ i + 1 }}</option>
+            </select>
+            <p>Среднее арифметическое: {{ avarage }}</p>
+        </div>
+        <script src="vue.js"></script>
+        <script src="script_62.js"></script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-var sample = [
+ var sample = [
     { text: "Foo" },
     { text: "Bar" }
 ];

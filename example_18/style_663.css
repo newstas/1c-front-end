@@ -1,0 +1,12 @@
+.shrink-enter-active, .shrink-leave-active {
+    transition: transform is ease;
+}
+
+.shrink-enter, .shrink-leave-to {
+    transform: scale(0);
+}
+
+input[type="text"] {
+    display: block;
+    margin: 0 auto;
+}

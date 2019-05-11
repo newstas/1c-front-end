@@ -7,6 +7,10 @@ var vm = new Vue({
     }
 });
 
+/* в учебнике написано по-другому
+vm.$watch("[firstString, secondString}", function(newValue) {
+но так мы получаем ошибку */
+
 vm.$watch("firstString", function(newValue) {
     console.log(newValue);
     this.changesCount += 1;

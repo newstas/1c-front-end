@@ -1,5 +1,9 @@
-var $ = require("jquery");
+var Vue = require("vue");
+var Header = require("./header.vue");
 
-$("button").on("click", function() {
-    alert("Hello, hay");
+var vm = new Vue({
+    el: "body",
+    components: {
+        'c-tag': Header
+    }
 });

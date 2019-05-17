@@ -291,8 +291,8 @@ if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   }
 })()}
 },{"./movie.vue":5,"vue":8,"vue-hot-reload-api":6}],4:[function(require,module,exports){
-var Vue = require("vue").default;
-var App = require("./app.vue").default;
+var Vue = require("vue");
+var App = require("./app.vue");
 
 var vm = new Vue({
     el: "root",

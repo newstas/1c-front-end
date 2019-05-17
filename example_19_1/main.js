@@ -1,9 +1,9 @@
 var Vue = require("vue");
-var Header = require("./header.vue");
+var App = require("./app.vue");
 
 var vm = new Vue({
-    el: "body",
-    components: {
-        cTag: Header
+    el: "root",
+    crender: function (createElement) {
+        return createElement(App);
     }
 });

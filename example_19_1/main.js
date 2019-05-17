@@ -1,5 +1,5 @@
-import Vue from "vue";
-import App from "./app.vue";
+import Vue from 'vue/dist/vue.js'
+import App from './src/app.vue'
 
 var vm = new Vue({
     el: "root",

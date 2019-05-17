@@ -3,7 +3,7 @@ var App = require("./app.vue");
 
 var vm = new Vue({
     el: "#root",
-    crender: function (createElement) {
+    render: function (createElement) {
         return createElement(App);
     }
 });

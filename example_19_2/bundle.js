@@ -1,0 +1,1 @@
+console.error("\nF:\\Stanislav\\Workspace\\GitHub\\1c-front-end\\example_19_2\\app.vue:1\n<template>\r\n^\nParseError: Unexpected token");

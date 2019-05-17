@@ -1,9 +1,18 @@
 var Vue = require("vue");
-var Header = require("./header.vue");
+var Search = require("./search.vue");
 
 var vm = new Vue({
     el: "body",
+    data: {
+        text: ""
+    },
     components: {
-        cTag: Header
+        search: Search
+    },
+    events: {
+        find: function(query) {
+            this.text = query;
+            return true;
+        }
     }
 });

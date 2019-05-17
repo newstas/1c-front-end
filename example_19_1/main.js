@@ -1,5 +1,5 @@
-import Vue from 'vue/dist/vue.js'
-import App from './src/app.vue'
+var Vue = require("vue").default;
+var App = require("./app.vue")
 
 var vm = new Vue({
     el: "root",

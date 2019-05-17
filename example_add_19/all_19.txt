@@ -95,3 +95,48 @@ var vm = new Vue({
         cTag: Header
     }
 });
+
+
+// Листинг 7.8 par-cap.vue
+<template>
+    <p>{{ pText.toUpperCase() }}</p>
+</template>
+
+<script>
+    module.exports = {
+        props: ["pText"]
+    };
+</script>
+
+
+//
+// Листинг 7.9 index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Компонента2</title>
+</head>
+    <body>
+        <input type="text" v-model="message">
+        <par-cap v-bind:p-text="massage"></par-cap>
+        <script src="bundle.js"></script>
+    </body>
+</html>
+
+
+
+//
+// Листинг 7.9 main.js
+var Vue = require("vue");
+var ParCap = require("./par-cap.vue");
+
+var vm = new Vue({
+    el: "body",
+    data: {
+        maessage: "Hello, components!"
+    },
+    components: {
+        parCap: ParCap
+    }
+});

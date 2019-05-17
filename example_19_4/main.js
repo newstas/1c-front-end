@@ -4,6 +4,6 @@ var Header = require("./header.vue");
 var vm = new Vue({
     el: "body",
     components: {
-        'c-tag': Header
+        cTag: Header
     }
 });

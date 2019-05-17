@@ -1,0 +1,64 @@
+// Листинг 7.2 main.js
+
+var $ = require("jquery");
+
+$("button").on("click", function() {
+    alert("Hello, World!");
+});
+
+
+// Листинг 7.5 header.vue
+
+<!-- атрибут scoped гарантирует, что
+    стили будут действовать только
+    в предлах данной компоненты  -->
+
+<style scoped>
+   h1 {
+   color: blue;
+   }
+</style>
+
+<template>
+   <h1>{{ msg }}</h1>
+</template>
+
+<script>
+   module.exports = {
+      data: function() {
+      /* у компоненты поле data должна быть
+          функция, возращающая словарь данных */
+      return {
+         msg: "Hello, component!"
+         };
+      }
+   };
+</script>
+
+
+// Листинг 7.6 index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Компонента</title>
+</head>
+    <body>
+        <c-tag></c-tag>
+        <script src="bundle.js"></script>
+    </body>
+</html>
+
+
+// Листинг 7.7 main.js
+
+var Vue = require("vue");
+var Header = require("./header.vue");
+
+var vm = new Vue({
+    el: "body",
+    components: {
+        cTag: Header
+    }
+});

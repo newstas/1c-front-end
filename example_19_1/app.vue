@@ -3,7 +3,7 @@
       poster-url="https://placehold.it/500"></movie>
 </template>
 
-<<script>
+<script>
     var Movie = require("./movie.vue");
 
     module.exports = {

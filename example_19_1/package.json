@@ -23,10 +23,3 @@
     "vueify": "^9.4.1"
   }
 }
-
-
-{
-  "browser": {
-    "vue": "vue/dist/vue.common.js"
-  }
-}

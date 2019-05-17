@@ -1,12 +1,20 @@
 var Vue = require("vue");
-var ParCap = require("./par-cap.vue");
+var Search = require("./search.vue");
 
 var vm = new Vue({
     el: "body",
     data: {
-        maessage: "Hello, components!"
+        text: ""
     },
     components: {
-        parCap: ParCap
+        search: Search
+    },
+    events: {
+        /* обработчик сообщения find */
+        find: function(query) {
+            this.text = query;
+            /* разрешаем всплывание */
+            return true;
+        }
     }
 });

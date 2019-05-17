@@ -1,5 +1,5 @@
-var Vue = require("vue");
-var App = require("./app.vue");
+import Vue from "vue";
+import App from "./app.vue";
 
 var vm = new Vue({
     el: "root",

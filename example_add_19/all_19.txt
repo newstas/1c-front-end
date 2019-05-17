@@ -1,5 +1,7 @@
+Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19
 
-// Листинг 7.1 index.html
+
+//             Листинг 7.1 index.html
 
 <!DOCTYPE html>
 <html>
@@ -13,8 +15,8 @@
     </body>
 </html>
 
-//
-// Листинг 7.2 main.js
+
+//               Листинг 7.2 main.js
 
 var $ = require("jquery");
 
@@ -22,8 +24,10 @@ $("button").on("click", function() {
     alert("Hello, World!");
 });
 
-//
-// Листинг 7.3 dependency.js
+
+// 7.1.3
+
+//               Листинг 7.3 dependency.js
 
 function f(x) {
     ...
@@ -33,14 +37,16 @@ module.exports = {
     act: f
 };
 
-/
+
 // Листинг 7.4 main.js
 var var dependency = reguire("./dependency.jr");
 ...
 dependency.act(42);
 
-//
-// Листинг 7.5 header.vue
+
+// 7.2.1
+
+//                Листинг 7.5 header.vue
 
 <!-- атрибут scoped гарантирует, что
     стили будут действовать только
@@ -68,8 +74,8 @@ dependency.act(42);
    };
 </script>
 
-//
-// Листинг 7.6 index.html
+
+//                Листинг 7.6 index.html
 
 <!DOCTYPE html>
 <html>
@@ -83,8 +89,8 @@ dependency.act(42);
     </body>
 </html>
 
-//
-// Листинг 7.7 main.js
+
+//                 Листинг 7.7 main.js
 
 var Vue = require("vue");
 var Header = require("./header.vue");
@@ -96,8 +102,9 @@ var vm = new Vue({
     }
 });
 
+// 7.2.2
 
-// Листинг 7.8 par-cap.vue
+//                 Листинг 7.8 par-cap.vue
 <template>
     <p>{{ pText.toUpperCase() }}</p>
 </template>
@@ -109,8 +116,8 @@ var vm = new Vue({
 </script>
 
 
-//
-// Листинг 7.9 index.html
+//                  Листинг 7.9 index.html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -126,8 +133,8 @@ var vm = new Vue({
 
 
 
-//
-// Листинг 7.9 main.js
+//                  Листинг 7.10 main.js
+
 var Vue = require("vue");
 var ParCap = require("./par-cap.vue");
 
@@ -138,5 +145,68 @@ var vm = new Vue({
     },
     components: {
         parCap: ParCap
+    }
+});
+
+
+// 7.2.3
+
+//                   Листинг 7.11 search.vue
+
+<template>
+    <input type="text" v-model="query" v-on:keydown.enter="sendQuery">
+    <button type="button" v-on:click="sendQuery">Найти!</button>
+</template>
+
+<script>
+    module.exports = {
+        data: function() {
+            return { query: "" };
+        },
+        methods: {
+            sendQuery: function() {
+                /* рассылка сообщения find */
+                this.$dispatch("find", this.query);
+            }
+        }
+    };
+</script>
+
+
+//                  Листинг 7.12 index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Сообщения</title>
+</head>
+    <body>
+        <search></search>
+        <p>Поиск по запросу: {{ text }}</p>
+        <script src="bundle.js"></script>
+    </body>
+</html>
+
+/                  Листинг 7.13 main.js
+
+var Vue = require("vue");
+var Search = require("./search.vue");
+
+var vm = new Vue({
+    el: "body",
+    data: {
+        text: ""
+    },
+    components: {
+        search: Search
+    },
+    events: {
+        /* обработчик сообщения find */
+        find: function(query) {
+            this.text = query;
+            /* разрешаем всплывание */
+            return true;
+        }
     }
 });

@@ -1,5 +1,3 @@
-var $ = require("jquery");
-
-$("button").on("click", function() {
-    alert("Hello, World!");
-});
+var var dependency = reguire("./dependency.jr");
+...
+dependency.act(42);

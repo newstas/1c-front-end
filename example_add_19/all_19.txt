@@ -1,3 +1,19 @@
+
+// Листинг 7.1 index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Browserify</title>
+</head>
+    <body>
+        <button type="button">Alert!</button>
+        <script src="bundle.js"></script>
+    </body>
+</html>
+
+//
 // Листинг 7.2 main.js
 
 var $ = require("jquery");
@@ -6,7 +22,24 @@ $("button").on("click", function() {
     alert("Hello, World!");
 });
 
+//
+// Листинг 7.3 dependency.js
 
+function f(x) {
+    ...
+}
+
+module.exports = {
+    act: f
+};
+
+/
+// Листинг 7.4 main.js
+var var dependency = reguire("./dependency.jr");
+...
+dependency.act(42);
+
+//
 // Листинг 7.5 header.vue
 
 <!-- атрибут scoped гарантирует, что
@@ -35,7 +68,7 @@ $("button").on("click", function() {
    };
 </script>
 
-
+//
 // Листинг 7.6 index.html
 
 <!DOCTYPE html>
@@ -50,7 +83,7 @@ $("button").on("click", function() {
     </body>
 </html>
 
-
+//
 // Листинг 7.7 main.js
 
 var Vue = require("vue");

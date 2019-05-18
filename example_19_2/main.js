@@ -17,6 +17,6 @@ var vm = new Vue({
     el: "#root",
     router: router,
     render: function(createElement) {
-        return createElement(App)
+        return createElement(App);
     }
 });

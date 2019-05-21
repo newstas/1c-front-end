@@ -2,7 +2,8 @@ var Vue = require("vue");
 var VueRouter = require("vue-router");
 var App = require("./app.vue");
 var Gallery = require("./pages/gallery.vue");
-var Item = require("./pages/item.vue")
+var Item = require("./pages/item.vue");
+
 
 Vue.use(VueRouter);
 

@@ -1,47 +1,49 @@
---------- тема Vue.js. Компоненты и маршрутизация ----------
+--------- тема 20 Vue.js. Компоненты и маршрутизация ----------
 
     Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
 
     cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
-    
+
     cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20\server
-    
+
+    http:localhost/
+
 ---------- Начало. Установка ----------
-    
+
 // 1) Создаем конфигурационнй фалй в папке проекта
-    
+
     npm init --force
-    
+
 // 2) Устанавливаем модуль Express
 
     npm install express --save
-    
+
 // Установка модуля mongodb для связи Node.js с базами данных MongoDB
 
     npm install mongodb --save
-    
+
 // Устанвливаем нужную версию MongoDB
 
     npm install mongodb@2.2.33 --save
-    
-// 3) Устанавливаем библиотеку vue-jwt-mongoдля для нач. загрузки JSON Web Token 
+
+// 3) Устанавливаем библиотеку vue-jwt-mongoдля для нач. загрузки JSON Web Token
 // с использованием Vue.js , MongoDB и Express.js .
 
 
     npm install vue-jwt-mongo --save
-    
+
 // Устанавливаем модуль vue-resource для отправки http-запросов
-    
+
     npm install vue-resource --save
-    
+
 // Запускаем сервер: из папки server выполнить
 
-    
+
     node index.js
-    
-    
-    
-    
+
+
+
+
 
 ---------- Начало. Установка ----------
 
@@ -81,7 +83,7 @@
 // Компилируем код в bundle.js с vueify
 
     browserify main.js --outfile bundle.js --transform vueify
-    
+
 
 
 // 6) Устанавливаем маршрутизатор

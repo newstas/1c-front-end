@@ -2,7 +2,7 @@
 
     Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
 
-    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_2
+    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
 
 ---------- Начало. Установка ----------
 
@@ -39,15 +39,17 @@
         --save-dev
 
 
+// Компилируем код в bundle.js с vueify
+
+    browserify main.js --outfile bundle.js --transform vueify
+    
+
+
 // 6) Устанавливаем маршрутизатор
 
     npm install vue-router --save
 
 
-
-// Компилируем код в bundle.js с vueify
-
-    browserify main.js --outfile bundle.js --transform vueify
 
 
 
@@ -205,3 +207,38 @@ Error: Cannot find module './app.vue' from 'F:\Stanislav\Workspace\GitHub\1c-fro
     at onex (C:\Users\Stanislav\AppData\Roaming\npm\node_modules\browserify\node_modules\browser-resolve\node_modules\resolve\lib\async.js:92:31)
     at C:\Users\Stanislav\AppData\Roaming\npm\node_modules\browserify\node_modules\browser-resolve\node_modules\resolve\lib\async.js:22:47
     at FSReqWrap.oncomplete (fs.js:153:21)
+
+
+
+new Vue({
+    el: '#app',
+    template: '<p>haaaa</p>'
+});
+
+
+import Vue from 'vue' //import App from './app.vue'
+
+new Vue({
+    el: '#app',
+    render: function(createElement) {
+        return createElement(
+            'p',
+            'haaaa'
+        )
+    }
+});
+
+
+
+import Vue from 'vue'
+import Vue from './header.vue"'
+
+var Vue = require("vue");
+var Header = require("./header.vue");
+
+var vm = new Vue({
+    el: "body",
+    components: {
+        cTag: Header
+    }
+});

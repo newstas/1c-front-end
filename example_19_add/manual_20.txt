@@ -2,8 +2,7 @@
 
     Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
 
-    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20
-    
+    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
 
 ---------- Начало. Установка ----------
 

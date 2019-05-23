@@ -1,6 +1,6 @@
 --------- тема Vue.js. Компоненты и маршрутизация ----------
 
-    Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_4
+    Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_2
 
     cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20
 

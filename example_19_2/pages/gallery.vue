@@ -3,7 +3,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        aliagn-item: center;
+        align-items: center;
     }
 </style>
 
@@ -21,7 +21,7 @@
 
 <script>
     var Movie = require("../movie.vue");
-    var Database = require("..database.js");
+    var Database = require("../database.js");
 
     module.exports = {
         data: function() {

@@ -21,7 +21,7 @@
 
 <script>
     var Movie = require("../movie.vue");
-    var Database = require("..database.js")
+    var Database = require("..database.js");
 
     module.exports = {
         data: function() {

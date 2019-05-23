@@ -6,11 +6,11 @@
 
     cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20\server
 
-    http:localhost/
+    http:localhost/        http:localhost/:80/
 
 ---------- Начало. Установка ----------
 
-// 1) Создаем конфигурационнй фалй в папке проекта
+// 1) Создаем конфигурационнй фалй packede.json в папке проекта
 
     npm init --force
 
@@ -29,7 +29,6 @@
 // 3) Устанавливаем библиотеку vue-jwt-mongoдля для нач. загрузки JSON Web Token
 // с использованием Vue.js , MongoDB и Express.js .
 
-
     npm install vue-jwt-mongo --save
 
 // Устанавливаем модуль vue-resource для отправки http-запросов
@@ -38,14 +37,11 @@
 
 // Запускаем сервер: из папки server выполнить
 
-
     node index.js
 
 
 
-
-
----------- Начало. Установка ----------
+---------- Начало. Установка Vue и компонентов ----------
 
 // 1) Установка Browserify
 
@@ -79,11 +75,11 @@
         babel-runtime babel-plugin-transform-runtime `
         --save-dev
 
+// Переход`
 
 // Компилируем код в bundle.js с vueify
 
     browserify main.js --outfile bundle.js --transform vueify
-
 
 
 // 6) Устанавливаем маршрутизатор
@@ -101,15 +97,6 @@
     node --version
 
     npm --version
-
-// Аудит пакетов npm
-
-    npm audit
-
-// Исправление пакетов (осторожно!)
-
-    npm audit fix
-
 
 // Установка Browserify
 
@@ -163,18 +150,9 @@ watchify main.js --outfile bundle.js --verbose
 
     npm -v vue
 
-
-// Устанавливаем модули необходимые для сборки компонентов
-
-    npm install vueify vue-hot-reload-api `
-        babel-core babel-preset-es2015 `
-        babel-runtime babel-plugin-transform-runtime `
-        --save-dev
-
 // Компилируем код в bundle.js с vueify
 
     browserify main.js --outfile bundle.js --transform vueify
-
 
 
 ---------- Маршрутизация ----------
@@ -185,15 +163,6 @@ watchify main.js --outfile bundle.js --verbose
 
 
 
------------- Команды node.js ---------------------
-
-    npm uninstall <name> удаляет модуль из node_modules, но не package.json
-
-    npm uninstall <name> --save также удаляет его из dependencies в package.json
-
-    npm uninstall <name> --save-dev также удаляет его из devDependencies в package.json
-
-    npm -g uninstall <name> --save также удаляет его глобально
 
 
 

@@ -1,4 +1,6 @@
 
+-------------- Node уставновка сервера Express
+
 // Инициализация конфигурационного файла package.json
 // package.json хранит список зависимостей
 
@@ -30,6 +32,10 @@
 
     npm install mongodb --save
 
-// Устанвливаем нужную версию MongoDB
+// Устанвливаем нужную версию MongoDB !!!
 
     npm install mongodb@2.2.33 --save
+
+// Запустить сервер и код в файле:
+
+    node index.js

@@ -1,9 +1,9 @@
 --------- тема Vue.js. Компоненты и маршрутизация ----------
 
-    Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
+    Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_4
 
     cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20
-    
+
 
 ---------- Начало. Установка ----------
 
@@ -39,11 +39,13 @@
         babel-runtime babel-plugin-transform-runtime `
         --save-dev
 
+Завершаем ` // чтобы файл читался далее
+
 
 // Компилируем код в bundle.js с vueify
 
     browserify main.js --outfile bundle.js --transform vueify
-    
+
 
 
 // 6) Устанавливаем маршрутизатор

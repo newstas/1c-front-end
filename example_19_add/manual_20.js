@@ -2,13 +2,26 @@
 
     Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
 
-    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
+    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20\client
 
     cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20\server
 
     http:localhost/        http:localhost/:80/
 
----------- Начало. Установка ----------
+    https://www.grc.com/passwords.htm
+
+    "INSERT_SECRET_HERE" "! # HlqY8% @ ydzixzm" "oFZ45jlpav803qUo3"
+
+// Запускаем сервер: из папки server выполнить
+
+    node index.js
+
+// Компилируем код в bundle.js с vueify
+
+    browserify main.js --outfile bundle.js --transform vueify
+
+
+---------- Начало. Установка NPM ----------
 
 // 1) Создаем конфигурационнй фалй packede.json в папке проекта
 
@@ -18,15 +31,27 @@
 
     npm install express --save
 
-// Установка модуля mongodb для связи Node.js с базами данных MongoDB
+// Утстанвливаем JQuery
 
-    npm install mongodb --save
+    npm install jquery --save
 
-// Устанвливаем нужную версию MongoDB
+// Утстанвливаем Vue.js и модули необходимы для сборки компонентов
 
-    npm install mongodb@2.2.33 --save
+    npm install vue --save
 
-// 3) Устанавливаем библиотеку vue-jwt-mongoдля для нач. загрузки JSON Web Token
+    npm install vueify vue-hot-reload-api `
+        babel-core babel-preset-es2015 `
+        babel-runtime babel-plugin-transform-runtime `
+        --save-dev
+
+    Завершаем ` // чтобы файл читался далее
+
+// Установка модуля WebSocket
+
+    npm install ws --save
+
+
+// Устанавливаем библиотеку vue-jwt-mongoдля для нач. загрузки JSON Web Token
 // с использованием Vue.js , MongoDB и Express.js .
 
     npm install vue-jwt-mongo --save
@@ -35,9 +60,35 @@
 
     npm install vue-resource --save
 
+// Устанавливаем модуль Multer
+
+    npm install --save multer
+
 // Запускаем сервер: из папки server выполнить
 
     node index.js
+
+// Компилируем код в bundle.js с vueify
+
+browserify main.js --outfile bundle.js --transform vueify
+
+
+------------ Установка MongoDB ------------
+
+
+// Установка модуля mongodb для связи Node.js с базами данных MongoDB
+
+    npm install mongodb --save
+
+// Устанвливаем нужную версию MongoDB
+
+    npm install mongodb@2.2.33 --save
+
+// Через команду use создаем новую базу photofeed
+
+    use photofeed
+
+
 
 
 

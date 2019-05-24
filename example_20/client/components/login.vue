@@ -25,7 +25,7 @@
         methods: {
             login: function() {
                     this.$auth.login(this.username, this.password)
-                        .this(function() {
+                        .then(function() {
                             this.$router.push("/feed");
                         });
             }

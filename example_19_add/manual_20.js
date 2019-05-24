@@ -8,6 +8,12 @@
 
     http://localhost/#!/register
 
+    http://localhost/#!/logIn
+
+    http://localhost/#!/feed
+
+    http://localhost/#!/upload
+
     http://localhost/
 
     http://localhost/:80/

@@ -300,7 +300,7 @@ module.exports = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('navigation'),_vm._v(" "),_c('div',{staticClass:"feed"},[_c('div',{staticClass:"feed__row"},_vm._l((_vm.photos),function(photo){return _c('div',{staticClass:"photo panel panel-default"},[_c('div',{staticClass:"photo-heading"},[_c('div',{staticClass:"photo__header"},[_c('span',{staticClass:"panel-titel"},[_vm._v(_vm._s(photo.user))]),_vm._v(" "),_c('span',{staticClass:"glyphicon glyphicon-user"})]),_vm._v(" "),_c('div',{staticClass:"panel-body"},[_c('img',{attrs:{"src":'/upload/' + photo.image}})])])])}),0)])],1)}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('navigation'),_vm._v(" "),_c('div',{staticClass:"feed"},[_c('div',{staticClass:"feed__row"},_vm._l((_vm.photos),function(photo){return _c('div',{staticClass:"photo panel panel-default"},[_c('div',{staticClass:"photo-heading"},[_c('div',{staticClass:"photo__header"},[_c('span',{staticClass:"panel-titel"},[_vm._v(_vm._s(photo.user))]),_vm._v(" "),_c('span',{staticClass:"glyphicon glyphicon-user"})]),_vm._v(" "),_c('div',{staticClass:"panel-body"},[_c('img',{attrs:{"src":'/uploads/' + photo.image}})])])])}),0)])],1)}
 __vue__options__.staticRenderFns = []
 __vue__options__._scopeId = "data-v-2e59e281"
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
@@ -356,7 +356,7 @@ module.exports = {
     },
     methods: {
         login: function login() {
-            this.$auth.login(this.username, this.password).this(function () {
+            this.$auth.login(this.username, this.password).then(function () {
                 this.$router.push("/feed");
             });
         }
@@ -424,7 +424,7 @@ module.exports = {
     methods: {
         register: function register() {
             if (this.passwordA === this.passwordB) {
-                this.$auth.register(this.username, this.passwordA).this(function () {
+                this.$auth.register(this.username, this.passwordA).then(function () {
                     this.$router.push("/login");
                 });
             }
@@ -650,7 +650,7 @@ module.exports.InvalidTokenError = InvalidTokenError;
 ;(function(isNode) {
 
 	/**
-	 * Merge one or more objects 
+	 * Merge one or more objects
 	 * @param bool? clone
 	 * @param mixed,... arguments
 	 * @return object
@@ -663,7 +663,7 @@ module.exports.InvalidTokenError = InvalidTokenError;
 	}, publicName = 'merge';
 
 	/**
-	 * Merge two or more objects recursively 
+	 * Merge two or more objects recursively
 	 * @param bool? clone
 	 * @param mixed,... arguments
 	 * @return object

@@ -34,7 +34,7 @@
                             <span class="glyphicon glyphicon-user"></span>
                         </div>
                         <div class="panel-body">
-                            <img v-bind:src="'/upload/' + photo.image">
+                            <img v-bind:src="'/uploads/' + photo.image">
                         </div>
                     </div>
                 </div>

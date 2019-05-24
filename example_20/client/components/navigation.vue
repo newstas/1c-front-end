@@ -26,7 +26,7 @@
 <script>
     module.exports = {
         methods: {
-            logOut:function() {
+            logOut: function() {
                 this.$outh.logOut();
                 this.$router.push("/");
             }

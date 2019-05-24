@@ -28,7 +28,7 @@
             register: function() {
                 if(this.passwordA === this.passwordB) {
                     this.$auth.register(this.username, this.passwordA)
-                        .this(function() {
+                        .then(function() {
                             this.$router.push("/login");
                         });
                 }

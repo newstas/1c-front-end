@@ -6,7 +6,11 @@
 
     cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20\server
 
-    http:localhost/        http:localhost/:80/
+    http://localhost/#!/register
+
+    http://localhost/
+
+    http://localhost/:80/
 
     https://www.grc.com/passwords.htm
 
@@ -23,13 +27,17 @@
 
 ---------- Начало. Установка NPM ----------
 
-// 1) Создаем конфигурационнй фалй packede.json в папке проекта
+// 1Создаем конфигурационнй фалй packede.json в папке проекта
 
     npm init --force
 
-// 2) Устанавливаем модуль Express
+// 2Устанавливаем модуль Express
 
     npm install express --save
+
+// Установка модуля cors
+
+    npm install cors --save
 
 // Утстанвливаем JQuery
 
@@ -45,6 +53,10 @@
         --save-dev
 
     Завершаем ` // чтобы файл читался далее
+
+// Устанавливаем маршрутизатор
+
+    npm install vue-router --save
 
 // Установка модуля WebSocket
 

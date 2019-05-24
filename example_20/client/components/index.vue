@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    modul.exports = {
+    module.exports = {
         mounted: function() {
             if(this.$auth.isLoggedIn()) {
                 this.$router.push("/feed");

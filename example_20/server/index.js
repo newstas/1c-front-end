@@ -8,9 +8,7 @@ var mongoUrl = "mongodb://localhost/photofeed";
 var app = express();
 var vjmServer = vjm.Server({
     mongoUrl: mongoUrl,
-    jwtSecret: "INSERT_SECRET_HERE"
-
-
+    jwtSecret: "oFZ45jlpav803qUo3"
 });
 var upload = multer({ dest: "../public/uploads" });
 var database;
@@ -21,7 +19,7 @@ app.use(express.static("../pablic"));
 app.post("/auth/register", vjmServer.registerHandler);
 app.post("/auth/login", vjmServer.loginHandler);
 
-app.post("upload", [vjmServer.jmtProtector, upload.single("image")],
+app.post("upload", [vjmServer.jwtProtector, upload.single("image")],
     function(request, response) {
         database.collection("uploads").insert({
             user: request.user.username,

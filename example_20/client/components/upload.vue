@@ -73,5 +73,5 @@
         components: {
             navigation: require("./navigation.vue")
         }
-    };    
+    };
 </script>

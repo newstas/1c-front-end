@@ -59,7 +59,7 @@
                         self.image = readerEvent.target.result;
                         self.previewed = true;
                     };
-                    reader.readAsDataURL(file[0]);
+                    reader.readAsDataURL(files[0]);
                 }
             },
             upload: function(event) {

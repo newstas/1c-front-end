@@ -2,9 +2,9 @@
 
     Set-Location F:\Stanislav\Workspace\GitHub\1c-front-end\example_19_3
 
-    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20\client
+    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20_2\client
 
-    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20\server
+    cd F:\Stanislav\Workspace\GitHub\1c-front-end\example_20_2\server
 
     http://localhost/#!/register
 
@@ -16,7 +16,7 @@
 
     http://localhost/
 
-    http://localhost/:80/
+    http://localhost:80/
 
     https://www.grc.com/passwords.htm
 

@@ -8,7 +8,7 @@ var mongoUrl = "mongodb://localhost/photofeed";
 var app = express();
 var vjmServer = vjm.Server({
     mongoUrl: mongoUrl,
-    jwtSecret: "oFZ45jlpav803qUo3"
+    jwtSecret: "5"
 });
 var upload = multer({ dest: "../public/uploads" });
 var database;

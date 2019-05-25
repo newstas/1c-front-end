@@ -27,7 +27,7 @@
     module.exports = {
         methods: {
             logOut: function() {
-                this.$outh.logOut();
+                this.$auth.logOut();
                 this.$router.push("/");
             }
         }

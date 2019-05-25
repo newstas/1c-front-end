@@ -386,7 +386,7 @@ var __vueify_style_dispose__ = require("vueify/lib/insert-css").insert(".navbar-
 module.exports = {
     methods: {
         logOut: function logOut() {
-            this.$outh.logOut();
+            this.$auth.logOut();
             this.$router.push("/");
         }
     }
@@ -468,7 +468,7 @@ module.exports = {
                     self.image = readerEvent.target.result;
                     self.previewed = true;
                 };
-                reader.readAsDataURL(file[0]);
+                reader.readAsDataURL(files[0]);
             }
         },
         upload: function upload(event) {

@@ -240,6 +240,9 @@ watchify main.js --outfile bundle.js --verbose
 
 ------ алтернативные варианты ------------
 
+npm install browserify --save
+
+npm install babel-plugin-transform-runtime --save
 
 
 var Vue = require('vue').default;

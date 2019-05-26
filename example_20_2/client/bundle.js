@@ -356,7 +356,7 @@ module.exports = {
     },
     methods: {
         login: function login() {
-            this.$auth.login(this.username, this.password).then(function () {
+            this.$auth.logIn(this.username, this.password).then(function () {
                 this.$router.push("/feed");
             });
         }

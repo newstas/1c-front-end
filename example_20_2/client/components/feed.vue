@@ -54,6 +54,6 @@
                     this.photos = response.body;
                 });
         },
-        components: { navigation: require("./navigation.vue")}
+        components: { navigation: require("./navigation.vue") }
     };
 </script>

@@ -300,7 +300,7 @@ module.exports = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('navigation'),_vm._v(" "),_c('div',{staticClass:"feed"},[_c('div',{staticClass:"feed__row"},_vm._l((_vm.photos),function(photo){return _c('div',{staticClass:"photo panel panel-default"},[_c('div',{staticClass:"photo-heading"},[_c('div',{staticClass:"photo__header"},[_c('span',{staticClass:"panel-titel"},[_vm._v(_vm._s(photo.user))]),_vm._v(" "),_c('span',{staticClass:"glyphicon glyphicon-user"})]),_vm._v(" "),_c('div',{staticClass:"panel-body"},[_c('img',{attrs:{"src":'/uploads/' + photo.image}})])])])}),0)])],1)}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('navigation'),_vm._v(" "),_c('div',{staticClass:"feed"},[_c('div',{staticClass:"feed__row"},_vm._l((_vm.photos),function(photo){return _c('div',{staticClass:"photo panel panel-default"},[_c('div',{staticClass:"panel-heading"},[_c('div',{staticClass:"photo__header"},[_c('span',{staticClass:"panel-titel"},[_vm._v(_vm._s(photo.user))]),_vm._v(" "),_c('span',{staticClass:"glyphicon glyphicon-user"})]),_vm._v(" "),_c('div',{staticClass:"panel-body"},[_c('img',{attrs:{"src":'/uploads/' + photo.image}})])])])}),0)])],1)}
 __vue__options__.staticRenderFns = []
 __vue__options__._scopeId = "data-v-0d69286e"
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
@@ -331,7 +331,7 @@ module.exports = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',[_vm._v("Перенаправления")])}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',[_vm._v("Перенаправление...")])}
 __vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -486,7 +486,7 @@ module.exports = {
 if (module.exports.__esModule) module.exports = module.exports.default
 var __vue__options__ = (typeof module.exports === "function"? module.exports.options: module.exports)
 if (__vue__options__.functional) {console.error("[vueify] functional components are not supported and should be defined in plain js files using render functions.")}
-__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('navigation'),_vm._v(" "),_c('div',{staticClass:"focus"},[_c('div',{staticClass:"focus__holder"},[(_vm.previewed)?_c('img',{directives:[{name:"bint",rawName:"v-bint:src",value:(_vm.image),expression:"image",arg:"src"}]}):_vm._e(),_vm._v(" "),_c('form',{on:{"submit":function($event){$event.preventDefault();return _vm.upload($event)}}},[_c('label',{staticClass:"btn btn-default btn-file"},[_vm._v("\n                    Выбрать...\n                    "),_c('input',{attrs:{"type":"fiel","accept":"image/*","name":"image"},on:{"change":_vm.preview}})]),_vm._v(" "),_c('button',{staticClass:"btn btn-default",attrs:{"type":"submit","disabled":!_vm.previewed}},[_vm._v("Загрузить!")])])])])],1)}
+__vue__options__.render = function render () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page"},[_c('navigation'),_vm._v(" "),_c('div',{staticClass:"focus"},[_c('div',{staticClass:"focus__holder"},[(_vm.previewed)?_c('img',{directives:[{name:"bint",rawName:"v-bint:src",value:(_vm.image),expression:"image",arg:"src"}]}):_vm._e(),_vm._v(" "),_c('form',{on:{"submit":function($event){$event.preventDefault();return _vm.upload($event)}}},[_c('label',{staticClass:"btn btn-default btn-file"},[_vm._v("\n                    Выбрать...\n                    "),_c('input',{attrs:{"type":"file","accept":"image/*","name":"image"},on:{"change":_vm.preview}})]),_vm._v(" "),_c('button',{staticClass:"btn btn-default",attrs:{"type":"submit","disabled":!_vm.previewed}},[_vm._v("Загрузить!")])])])])],1)}
 __vue__options__.staticRenderFns = []
 if (module.hot) {(function () {  var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)

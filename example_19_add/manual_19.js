@@ -15,7 +15,6 @@
 
     npm init --force
 
-
 // 3) Утстанвливаем JQuery
 
     npm install jquery --save

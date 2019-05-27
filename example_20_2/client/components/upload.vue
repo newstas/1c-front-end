@@ -30,7 +30,7 @@
                 <form v-on:submit.prevent="upload">
                     <label class="btn btn-default btn-file">
                         Выбрать...
-                        <input type="fiel" accept="image/*"
+                        <input type="file" accept="image/*"
                             name="image" v-on:change="preview">
                     </label>
                     <button type="submit" class="btn btn-default"

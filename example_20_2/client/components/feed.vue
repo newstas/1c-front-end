@@ -28,7 +28,7 @@
         <div class="feed">
             <div class="feed__row">
                 <div v-for="photo in photos" class="photo panel panel-default">
-                    <div class="photo-heading">
+                    <div class="panel-heading">
                         <div class="photo__header">
                             <span class="panel-titel">{{ photo.user }}</span>
                             <span class="glyphicon glyphicon-user"></span>

@@ -41,6 +41,12 @@
 - `column`: сверху вниз
 - `column-reverse`: снизу вверх
 
+```css
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+```
+
 Если вы выберете `row` или `row-reverse`, ваша главная ось будет проходить в горизонтальном направлении (`inline direction`).
 
 [![Basics1.png](https://i.postimg.cc/25x97qmd/Basics1.png)](https://postimg.cc/2qVxzS13)

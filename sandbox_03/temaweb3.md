@@ -86,6 +86,12 @@
 - `space-between`: первый блок располагается в начале главной оси, последний блок – в конце, все остальные блоки равномерно распределены в оставшемся пространстве.
 - `space-around`: все блоки равномерно распределены вдоль главной оси, разделяя все свободное пространство поровну.
 
+```css
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+```
+
 [![flex-justify-content-300x200.png](https://i.postimg.cc/wjWMn267/flex-justify-content-300x200.png)](https://postimg.cc/dhyJy8ZY)
 
 ### `align-items` – выравнивание по поперечной оси (выровнять элементы)

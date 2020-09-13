@@ -93,8 +93,8 @@ solveLinearEquation(0, 6)
 solveLinearEquation(0, 0)
 <:Решений бесконечно много
 
-<:solveLinearEquation(5, 7)
--1.4
+solveLinearEquation(5, 7)
+<:-1.4
 
 // в скобках if могут стоять не только логические выражения, но и переменные логического типа
 

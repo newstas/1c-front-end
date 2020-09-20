@@ -161,6 +161,8 @@ element.removeEventListener(event, handler[, options]);
 
 [Функции](https://learn.javascript.ru/function-basics)
 
+[Function Expression (Функциональное Выражение)](https://learn.javascript.ru/function-expressions)
+
 [Типы данных](https://learn.javascript.ru/types)
 
 

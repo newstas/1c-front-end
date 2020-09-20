@@ -146,3 +146,11 @@ result = !value;
     true || (anything) короткое замыкание дающее true.
 ```
 Часть выражения (anything) не вычисляется. Если в ней есть вызов функции, то эта функция не будет вызвана.
+
+***
+
+[Условное ветвление: if, '?'](https://learn.javascript.ru/ifelse)
+
+[Циклы while и for](https://learn.javascript.ru/while-for)
+
+[Конструкция "switch"](https://learn.javascript.ru/switch)

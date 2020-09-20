@@ -155,6 +155,7 @@ element.removeEventListener(event, handler[, options]);
 
 [Структура кода](https://learn.javascript.ru/structure)
 
+[Особенности JavaScript](https://learn.javascript.ru/javascript-specials)
 
 
 [Курс JavaScript - Основные концепции и особенности разработки](http://jsflow.org/)
@@ -164,5 +165,4 @@ element.removeEventListener(event, handler[, options]);
 [Введение в браузерные события](https://learn.javascript.ru/introduction-browser-events)
 
 
-Используем console.log() в Chrome на полную
-https://habr.com/ru/post/480700/
+[Используем console.log() в Chrome на полную](https://habr.com/ru/post/480700/)

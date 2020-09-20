@@ -159,6 +159,8 @@ element.removeEventListener(event, handler[, options]);
 
 [Переменные](https://learn.javascript.ru/variables)
 
+[Типы данных](https://learn.javascript.ru/types)
+
 
 [Курс JavaScript - Основные концепции и особенности разработки](http://jsflow.org/)
 

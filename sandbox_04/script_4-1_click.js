@@ -1,5 +1,5 @@
 // выводим в консоль браузера общее число нажатий на кнопку
-var button = document.getElementById("convert");
+// var button = document.getElementById("convert");
 var count = 0;
 
 function print() {

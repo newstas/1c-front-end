@@ -1,6 +1,6 @@
 var Questions = [
     {
-        text: "Что не считается содержимым при box-sizing; border-box?",
+        text: "Что не считается содержимым при box-sizing: border-box?",
         options: ["padding", "margin", "border", "Всё считается содержимым"],
         correct: 1
     },

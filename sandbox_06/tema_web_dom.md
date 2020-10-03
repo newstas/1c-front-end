@@ -8,7 +8,8 @@
     <script src="questions.js"></script>
     <script src="script.js"></script>
 </body>
-   
+```
+
 После работы JS
 
 ```html
@@ -40,6 +41,7 @@
 Корнем иерархии является `EventTarget`, от него наследует `Node` и остальные DOM-узлы.
 
 На рисунке ниже изображены основные классы:
+
 [![dom-class-hierarchy.jpg](https://i.postimg.cc/3w17JRZY/dom-class-hierarchy.jpg)](https://postimg.cc/sBMbT38N)
 
 Существуют следующие классы:

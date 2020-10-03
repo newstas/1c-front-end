@@ -1,5 +1,7 @@
 
-# element.innerHTML
+## Свойство innerHTML
+
+### element.innerHTML
 
 question counter - счетчик вопросов (в задании)
 
@@ -30,6 +32,8 @@ proceed Answer (event) - продолжить Ответ (событие)
 
 
 ## Свойство classList
+
+### element.classList
 
 `option.classList.add("panel", "panel--option");`
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Пятнашки</title>
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+        }
+
+        .field {
+            width: 400px;
+            height: 400px;
+            background-color: #9775AA;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .field__cell {
+            width: 81.25px;
+            height: 81.25px;
+            position: absolute;
+            border-radius: 3px;
+        }
+
+        .field__cell--null {
+            background-color: #764B8E;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="field" id="field">
+
+    </div>
+
+    <script>
+        function createCellNull() {
+            var cell = document.createElement("div");
+            cell.classList.add("field__cell", "field__cell--null");
+            return cell;
+        }
+
+        function setCellOffset(cell) {
+            cell.style.left = (15 + (15 + 81.25) * cell.x) + "px";
+            cell.style.top = (15 + (15 + 81.25) * cell.y) + "px";
+        }
+
+        function appendCell(cell) {
+            var field = document.getElementById("field");
+            field.appendChild(cell);
+        }
+
+        function createField() {
+            var x, y, cell;
+            for (y = 0; y < 4; ++y) {
+                for (x = 0; x < 4; ++x) {
+                    cell = createCellNull();
+                    cell.y = y;
+                    cell.x = x;
+                    setCellOffset(cell);
+                    appendCell(cell);
+                }
+            }
+        }
+        createField();
+    </script>
+
+</body> 
+
+</html>

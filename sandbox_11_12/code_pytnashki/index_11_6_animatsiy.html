@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Пятнашки</title>
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+        }
+
+        .field {
+            width: 400px;
+            height: 400px;
+            background-color: #9775AA;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .field__cell {
+            width: 81.25px;
+            height: 81.25px;
+            position: absolute;
+            border-radius: 3px;
+        }
+
+        .field__cell--null {
+            background-color: #764B8E;
+        }
+
+        .field__cell--tile {
+            background-color: #3D1255;
+            color: white;
+            font-size: 42px;
+            font-weight: bold;
+
+            /* центрирование числа на костяшке */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* TODO добавляем эффект плавного перемещения костящек */
+            transition: left 0.5s ease, top 0.5s ease;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="field" id="field">
+
+    </div>
+
+    <script>
+        var tiles = [];
+        /* Создаем глобальный массив freeCell с координатами свободной ячейки */
+        var freeCell = {
+            y: 3,
+            x: 3
+        };
+
+        function createCellNull() {
+            var cell = document.createElement("div");
+            cell.classList.add("field__cell", "field__cell--null");
+            return cell;
+        }
+
+        function setCellOffset(cell) {
+            cell.style.left = (15 + (15 + 81.25) * cell.x) + "px";
+            cell.style.top = (15 + (15 + 81.25) * cell.y) + "px";
+        }
+
+        function appendCell(cell) {
+            var field = document.getElementById("field");
+            field.appendChild(cell);
+        }
+
+        function createField() {
+            var x, y, cell;
+            for (y = 0; y < 4; ++y) {
+                for (x = 0; x < 4; ++x) {
+                    cell = createCellNull();
+                    cell.y = y;
+                    cell.x = x;
+                    setCellOffset(cell);
+                    appendCell(cell);
+                }
+            }
+        }
+
+        function createCellTile() {
+            var cell = document.createElement("div");
+            cell.classList.add("field__cell", "field__cell--tile");
+            return cell;
+        }
+
+        function createTiles() {
+            var x, y, cell, n;
+            for (y = 0; y < 4; ++y) {
+                for (x = 0; x < 4; ++x) {
+                    n = y * 4 + x + 1;
+                    /* всего костяшек должно быть 15 */
+                    if (n < 16) {
+                        cell = createCellTile();
+                        cell.y = y;
+                        cell.x = x;
+                        cell.innerHTML = n;
+                        setCellOffset(cell);
+                        appendCell(cell);
+                        /* добавляет костяшку в массив */
+                        tiles.push(cell);
+                    }
+                }
+            }
+        }
+
+        function animateTiles() {
+            var i;
+            for (i = 0; i < tiles.length; ++i) {
+                tiles[i].addEventListener("click", tileClick);
+            }
+        }
+
+        function between(a, b, t) { // принимает аргументы a, b  и t. Возвращает true, если t находится между a и b, а иначе false
+            return a <= t && t <= b || b <= t && t <= a;
+        }
+
+        function tileClick(event) { // функция обратного вызова tileClick, исопльзуящая between и т. д. и принимающая аргумент event
+            var bar = event.target, // нажатая игровая ячейка (event.target), которая сохраняется в переменную bar ниже
+                i, tile;
+            /* запоминаем старые координаты каждой ячейки */
+            var oldX = bar.x,
+                oldY = bar.y;
+            if (bar.y == freeCell.y) {
+                for (i = 0; i < tiles.length; ++i) {
+                    tile = tiles[i];
+                    if (tile.y == bar.y && between(bar.x, freeCell.x, tile.x)) {
+                        if (bar.x < freeCell.x) tile.x += 1;
+                        else tile.x -= 1;
+                        setCellOffset(tile);
+                    }
+                }
+                freeCell = { // создаем глобальный объект freeCell со свойствами y и x, обозначающие позицию свободной ячейки
+                    y: oldY,
+                    x: oldX
+                };
+            } else if (bar.x == freeCell.x) {
+                for (i = 0; i < tiles.length; ++i) {
+                    tile = tiles[i];
+                    if (tile.x == bar.x && between(bar.y, freeCell.y, tile.y)) {
+                        if (bar.y < freeCell.y) tile.y += 1;
+                        else tile.y -= 1;
+                        setCellOffset(tile);
+                    }
+                }
+                freeCell = {
+                    y: oldY,
+                    x: oldX
+                };
+            }
+        }
+
+        createField();
+        createTiles();
+        animateTiles();
+    </script>
+
+</body>
+
+</html>

@@ -267,7 +267,7 @@ new Path2D(d);    // путь от данных контуров SVG
 
 ### Источники
 
-[Учебник по холсту  - MSN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
+[Учебник по холсту - MSN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 
 [API Canvas (Холст) — краткий справочник](http://html5ru.com/api-canvas-xolst-kratkij-spravochnik.html)
 
@@ -278,3 +278,5 @@ new Path2D(d);    // путь от данных контуров SVG
 [Справочник по HTML Canvas - 3schools.com](https://www.w3schools.com/graphics/canvas_reference.asp)
 
 [HTML графика - 3schools.com](https://www.w3schools.com/graphics/default.asp)
+
+[WebGL - MSN](https://developer.mozilla.org/ru/docs/Web/API/WebGL_API)

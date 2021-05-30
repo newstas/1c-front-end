@@ -87,3 +87,5 @@ CSS свойство `display` указывает *тип элемента*. О�
 [БЭМ](https://ru.bem.info/)
 
 [Все значения свойства display](https://learn.javascript.ru/display)
+
+[display: inline-block | HTML5CSS.ru](https://html5css.ru/css/css_inline-block.php)

@@ -167,29 +167,6 @@ passive: если true, то указывает, что обработчик н�
 element.removeEventListener(event, handler[, options]);
 ```
 
-***
-
-[Структура кода](https://learn.javascript.ru/structure)
-
-[Особенности JavaScript](https://learn.javascript.ru/javascript-specials)
-
-[Переменные](https://learn.javascript.ru/variables)
-
-[Функции](https://learn.javascript.ru/function-basics)
-
-[Function Expression (Функциональное Выражение)](https://learn.javascript.ru/function-expressions)
-
-[Типы данных](https://learn.javascript.ru/types)
-
-
-[Курс JavaScript - Основные концепции и особенности разработки](http://jsflow.org/)
-
-
-
-[Введение в браузерные события](https://learn.javascript.ru/introduction-browser-events)
-
-
-[Используем console.log() в Chrome на полную](https://habr.com/ru/post/480700/)
  
  ## Поиск: `getElement*`, `querySelector*`
 
@@ -223,3 +200,29 @@ getElementsByClassName  | class        | ✔                    | ✔
 
 Метод elem.querySelector(css) возвращает первый элемент, соответствующий данному 
 CSS-селектору.
+ 
+ 
+
+***
+
+[Структура кода](https://learn.javascript.ru/structure)
+
+[Особенности JavaScript](https://learn.javascript.ru/javascript-specials)
+
+[Переменные](https://learn.javascript.ru/variables)
+
+[Функции](https://learn.javascript.ru/function-basics)
+
+[Function Expression (Функциональное Выражение)](https://learn.javascript.ru/function-expressions)
+
+[Типы данных](https://learn.javascript.ru/types)
+
+
+[Курс JavaScript - Основные концепции и особенности разработки](http://jsflow.org/)
+
+
+
+[Введение в браузерные события](https://learn.javascript.ru/introduction-browser-events)
+
+
+[Используем console.log() в Chrome на полную](https://habr.com/ru/post/480700/)

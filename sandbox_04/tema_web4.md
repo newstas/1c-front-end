@@ -1,3 +1,5 @@
+# WEB-I ТЕМА 4 — JavaScript. DOM, переменные и функции
+
 ```js
 var firstName = "John", lastName = "Doe";
 var fullName = firstName + " " + lastName;

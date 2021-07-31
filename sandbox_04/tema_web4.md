@@ -196,8 +196,9 @@ element.removeEventListener(event, handler[, options]);
 Есть 6 основных методов поиска элементов в DOM:
 
 Метод                   | Ищет по...   | Ищет внутри элемента? | Возвращает живую коллекцию?
-querySelector	        | CSS-selector | ✔                    | -
-querySelectorAll	    | CSS-selector | ✔                    | -
+---                     | ---          | ---                   | ---
+querySelector	          | CSS-selector | ✔                    | -
+querySelectorAll	       | CSS-selector | ✔                    | -
 getElementById          | id           | -                     | -
 getElementsByName       | name         | -                     | ✔
 getElementsByTagName    | tag or '*'   | ✔                    | ✔

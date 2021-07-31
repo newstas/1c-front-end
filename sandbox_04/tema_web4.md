@@ -190,3 +190,35 @@ element.removeEventListener(event, handler[, options]);
 
 
 [Используем console.log() в Chrome на полную](https://habr.com/ru/post/480700/)
+ 
+ ## Поиск: `getElement*`, `querySelector*`
+
+Есть 6 основных методов поиска элементов в DOM:
+
+Метод                   | Ищет по...   | Ищет внутри элемента? | Возвращает живую коллекцию?
+querySelector	        | CSS-selector | ✔                    | -
+querySelectorAll	    | CSS-selector | ✔                    | -
+getElementById          | id           | -                     | -
+getElementsByName       | name         | -                     | ✔
+getElementsByTagName    | tag or '*'   | ✔                    | ✔
+getElementsByClassName  | class        | ✔                    | ✔
+
+
+
+### Поисковый метод `document.getElementById` или просто `id`
+
+Если у элемента есть атрибут id, то мы можем получить его 
+вызовом `document.getElementById(id)`, где бы он ни находился.
+
+
+### Поисковый метод `querySelector*`
+
+`querySelectorAll`
+
+Самый универсальный метод поиска – это elem.querySelectorAll(css), он возвращает 
+все элементы внутри elem, удовлетворяющие данному CSS-селектору.
+
+`querySelector`
+
+Метод elem.querySelector(css) возвращает первый элемент, соответствующий данному 
+CSS-селектору.

@@ -1,5 +1,7 @@
+```js
 var firstName = "John", lastName = "Doe";
 var fullName = firstName + " " + lastName;
+```
 
 
 # Структура кода

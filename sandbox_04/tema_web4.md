@@ -127,7 +127,7 @@ console.log(element);
 `DOMContentLoaded` – когда HTML загружен и обработан, DOM документа полностью построен и доступен.
 
 
-## Обработчики событий
+# Обработчики событий
 
 Событию можно назначить обработчик, то есть функцию, которая сработает, как только событие произошло.
 
@@ -159,7 +159,7 @@ console.log(element);
 
 ## Синтаксис добавления обработчика:
 
-element.addEventListener(event, handler[, options]);
+`element.addEventListener(event, handler[, options]);`
 
 `event`
  Имя события, например "click".

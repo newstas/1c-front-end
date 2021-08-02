@@ -77,14 +77,6 @@ alert(3 +
 **Многострочные комментарии начинаются косой чертой со звёздочкой `/*` и заканчиваются звёздочкой с косой чертой `*/`.**
 
 
-## Выводим `HTML`
-HTML элементы в консоли можно исследовать так же, как в инспекторе:
-```
-let element = document.getElementsByTagName("body") [0];
-console.log(element);
-```
-
-
 # DOM (Document Object Model)
 
 **Document Object Model**, сокращённо **DOM** – объектная модель документа, которая представляет все содержимое страницы в виде объектов, которые можно менять.
@@ -173,6 +165,14 @@ document.body.style.background = "red";
 
 Метод `elem.querySelector(css)` возвращает первый элемент, соответствующий данному 
 CSS-селектору.
+
+
+## Выводим `HTML`
+HTML элементы в консоли можно исследовать так же, как в инспекторе:
+```
+let element = document.getElementsByTagName("body") [0];
+console.log(element);
+```
 
 
 # Введение в браузерные события

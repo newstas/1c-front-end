@@ -308,8 +308,11 @@ element.removeEventListener(event, handler[, options]);
 [Курс JavaScript - Основные концепции и особенности разработки](http://jsflow.org/)
 
 
-
 [Введение в браузерные события](https://learn.javascript.ru/introduction-browser-events)
+
+[Браузерное окружение, спецификации](https://learn.javascript.ru/browser-environment)
+
+[DOM-дерево](https://learn.javascript.ru/dom-nodes)
 
 
 [Используем console.log() в Chrome на полную](https://habr.com/ru/post/480700/)

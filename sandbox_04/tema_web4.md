@@ -167,8 +167,10 @@ document.body.style.background = "red";
 CSS-селектору.
 
 
-## Выводим `HTML`
+## Находим и выводим `HTML`
+
 HTML элементы в консоли можно исследовать так же, как в инспекторе:
+
 ```
 let element = document.getElementsByTagName("body") [0];
 console.log(element);

@@ -84,11 +84,6 @@ let element = document.getElementsByTagName("body") [0];
 console.log(element);
 ```
 
-## Метод `addEventListener()` `HTML` `DOM`
-
-используйте элемент.`addEventListener()` для присоединения обработчика событий 
-к указанному элементу.
-
 
 # Введение в браузерные события
 
@@ -164,6 +159,11 @@ console.log(element);
 Можно назначать обработчик, используя свойство DOM-элемента `on<событие>`.
 
 К примеру, `elem.onclick`
+
+## Метод `addEventListener()` `HTML` `DOM`
+
+используйте элемент.`addEventListener()` для присоединения обработчика событий 
+к указанному элементу.
 
 
 ## Специальный метод `addEventListener`

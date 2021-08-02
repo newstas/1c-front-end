@@ -128,17 +128,51 @@ document.body.style.background = "red";
 
 **Спецификация DOM**
 
--/ описывает структуру документа, манипуляции с контентом и события, подробнее на https://dom.spec.whatwg.org.
+- описывает структуру документа, манипуляции с контентом и события, подробнее на https://dom.spec.whatwg.org.
 
 **Спецификация CSSOM (CSS Object Model)**
 
--/ описывает файлы стилей, правила написания стилей и манипуляций с ними, а также то, как это всё связано со страницей, подробнее на https://www.w3.org/TR/cssom-1/.
+- описывает файлы стилей, правила написания стилей и манипуляций с ними, а также то, как это всё связано со страницей, подробнее на https://www.w3.org/TR/cssom-1/.
 
 **Спецификация HTML**
 
--/ описывает язык HTML (например, теги) и BOM (объектную модель браузера) – разные функции браузера: setTimeout, alert, location и так далее, подробнее на https://html.spec.whatwg.org. Тут берётся за основу спецификация DOM и расширяется дополнительными свойствами и методами.
+- описывает язык HTML (например, теги) и BOM (объектную модель браузера) – разные функции браузера: setTimeout, alert, location и так далее, подробнее на https://html.spec.whatwg.org. Тут берётся за основу спецификация DOM и расширяется дополнительными свойствами и методами.
 
 Кроме того, некоторые классы описаны отдельно на https://spec.whatwg.org/.
+
+
+## Поиск: `getElement*`, `querySelector*`
+
+Есть 6 основных методов поиска элементов в DOM:
+
+Метод                     | Ищет по...   | Ищет внутри элемента? | Возвращает живую коллекцию?
+---                       | ---          | ---                   | ---
+`querySelector`	          | CSS-selector | ✔                    | -
+`querySelectorAll`	       | CSS-selector | ✔                    | -
+`getElementById`          | id           | -                     | -
+`getElementsByName`       | name         | -                     | ✔
+`getElementsByTagName`    | tag or '*'   | ✔                    | ✔
+`getElementsByClassName`  | class        | ✔                    | ✔
+
+
+
+### Поисковый метод `document.getElementById` или просто `id`
+
+Если у элемента есть атрибут id, то мы можем получить его 
+вызовом `document.getElementById(id)`, где бы он ни находился.
+
+
+### Поисковый метод `querySelector*`
+
+`querySelectorAll`
+
+Самый универсальный метод поиска – это `elem.querySelectorAll(css)`, он возвращает 
+все элементы внутри elem, удовлетворяющие данному CSS-селектору.
+
+`querySelector`
+
+Метод `elem.querySelector(css)` возвращает первый элемент, соответствующий данному 
+CSS-селектору.
 
 
 # Введение в браузерные события
@@ -251,39 +285,6 @@ document.body.style.background = "red";
 element.removeEventListener(event, handler[, options]);
 ```
 
- 
- ## Поиск: `getElement*`, `querySelector*`
-
-Есть 6 основных методов поиска элементов в DOM:
-
-Метод                     | Ищет по...   | Ищет внутри элемента? | Возвращает живую коллекцию?
----                       | ---          | ---                   | ---
-`querySelector`	          | CSS-selector | ✔                    | -
-`querySelectorAll`	       | CSS-selector | ✔                    | -
-`getElementById`          | id           | -                     | -
-`getElementsByName`       | name         | -                     | ✔
-`getElementsByTagName`    | tag or '*'   | ✔                    | ✔
-`getElementsByClassName`  | class        | ✔                    | ✔
-
-
-
-### Поисковый метод `document.getElementById` или просто `id`
-
-Если у элемента есть атрибут id, то мы можем получить его 
-вызовом `document.getElementById(id)`, где бы он ни находился.
-
-
-### Поисковый метод `querySelector*`
-
-`querySelectorAll`
-
-Самый универсальный метод поиска – это `elem.querySelectorAll(css)`, он возвращает 
-все элементы внутри elem, удовлетворяющие данному CSS-селектору.
-
-`querySelector`
-
-Метод `elem.querySelector(css)` возвращает первый элемент, соответствующий данному 
-CSS-селектору.
  
  
 

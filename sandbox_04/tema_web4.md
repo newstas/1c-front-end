@@ -85,6 +85,11 @@ console.log(element);
 ```
 
 
+DOM 
+
+[DOM](https://github.com/shkolait/picture/blob/main/1c-front-end/pic1/DOM-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C.png)
+
+
 # Введение в браузерные события
 
 Событие – это сигнал от браузера о том, что что-то произошло. Все DOM-узлы подают такие сигналы (хотя события бывают и не только в DOM).

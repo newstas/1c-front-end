@@ -177,7 +177,9 @@ console.log(element);
 
 `element.addEventListener(event, handler[, options]);`
 
-`event`
+где:
+
+`event` 
  
  Имя события, например "click".
 

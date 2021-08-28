@@ -89,7 +89,7 @@ let result = условие ? значение1 : значение2;
 Checkbox – это флажок, переключатель который описывается с помощью кода html:
 
 ```js
-<input type="checkbox" id=”one”>
+<input type = "checkbox" id=”one”>
 ```
 
 Чекбокс может иметь два состояния – выбран или нет. Соответственно с помощью JS можно 
@@ -103,7 +103,7 @@ Checkbox – это флажок, переключатель который оп
 
 ```js
 var chbox;
-chbox=document.getElementById('one');
+chbox = document.getElementById('one');
 ```
 
 Проверка элемента осуществляется с помощью проверки состояния элемента: `элемент.checked`

@@ -134,7 +134,7 @@ HTML:
 <input type="checkbox" id="one" onchange="fun1()"> Пример checkbox
 ```
 
-```JAVA SCRIPT
+JAVA SCRIPT:
 
 ```js
 function fun1() {

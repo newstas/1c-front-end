@@ -100,6 +100,12 @@ color[0]
 
 ***
 
+# Объект
+
+Класс Object представляет собой один из типов данных в JavaScript . Он используется для хранения **различных коллекций с ключами и более сложных объектов**. 
+
+Объекты можно создавать с помощью Object()конструктора или синтаксиса инициализатора / литерала объекта .
+
 
 # Массивы `Array`
 
@@ -202,3 +208,5 @@ alert( matrix[1][1] ); // 5, центральный элемент
 [for...in](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for...in)
 
 [Объекты: перебор свойств](https://learn.javascript.ru/object-for-in)
+
+[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

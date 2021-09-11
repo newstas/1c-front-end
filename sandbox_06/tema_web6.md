@@ -193,7 +193,7 @@ alert( matrix[1][1] ); // 5, центральный элемент
 
 [Массивы](https://learn.javascript.ru/array)
 
-[Объекты](https://learn.javascript.ru/object)
+[Объекты - Object](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 [Упорядоченные наборы данных](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Indexed_collections)
 

@@ -198,3 +198,7 @@ alert( matrix[1][1] ); // 5, центральный элемент
 [Упорядоченные наборы данных](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Indexed_collections)
 
 [Коллекции](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Keyed_collections)
+
+[for...in](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for...in)
+
+[Объекты: перебор свойств](https://learn.javascript.ru/object-for-in)

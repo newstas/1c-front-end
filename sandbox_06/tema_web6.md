@@ -74,6 +74,19 @@ delet car.mass;
 *Ответ: `<: Object {model: "DeLorean DMC-12F", volume: 2849, power: 150}`*
 
 
+## Итерирование словаря - конструкция `for...in`
+
+Перебираем ключи словаря с помощью конструкция `for...in`
+
+```js
+var key;
+for(key in car) {
+	console.log(key + ": " + car[key]);
+}
+```
+
+*Ответ: `<: 	model: "DeLorean DMC-12" 	<: volume: 2849 	<: power: 150`*
+
 
 
 # Массив Array

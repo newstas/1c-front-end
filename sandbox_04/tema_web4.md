@@ -391,6 +391,8 @@ ECMAScript также **определяет некоторые ключевые
 
 ***
 
+[Грамматика и типы](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Grammar_and_types)
+
 [Структура кода](https://learn.javascript.ru/structure)
 
 [Особенности JavaScript](https://learn.javascript.ru/javascript-specials)

@@ -215,3 +215,5 @@ alert( matrix[1][1] ); // 5, центральный элемент
 [Объекты: перебор свойств](https://learn.javascript.ru/object-for-in)
 
 [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+[Ассоциативные массивы в JavaScript](https://itchief.ru/javascript/associative-arrays)

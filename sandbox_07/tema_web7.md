@@ -144,3 +144,7 @@ mouseleave |       | blur | unload
 $("p").on("mouseenter", function() {
 	alert("Привет");
 ```
+
+jQuery метод `.mouseenter()` привязывает JavaScript обработчик событий 
+"mouseenter" (срабатывает, когда указатель мыши заходит на элемент), 
+или запускает это событие на выбранный элемент.

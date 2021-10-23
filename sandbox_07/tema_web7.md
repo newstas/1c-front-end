@@ -148,3 +148,10 @@ $("p").on("mouseenter", function() {
 jQuery метод `.mouseenter()` привязывает JavaScript обработчик событий 
 "mouseenter" (срабатывает, когда указатель мыши заходит на элемент), 
 или запускает это событие на выбранный элемент.
+
+**
+
+
+## Источники 
+
+[jQuery события](https://basicweb.ru/jquery/jquery_events.php)

@@ -110,6 +110,13 @@ jQuery от Google:
 
 # События
 
+События Мыши |	События клавиатуры	| События формы	| Document/Window события
+---     | --- | --- | ---
+click | keypress | submit | load
+dblclick | keydown | change | resize
+mouseenter | keyup | focus | scroll
+mouseleave |       | blur | unload
+
 ## Функция `on`
 
 Функция `on` похожа на фукцию `addEvenListener` - добавляет обработчик события

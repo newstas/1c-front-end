@@ -177,3 +177,5 @@ jQuery метод `mouseenter()` привязывает JavaScript обрабо�
 [Учебное пособие по jQuery - w3schools](https://www.w3schools.com/jquery/default.asp)
 
 [jQuery события](https://basicweb.ru/jquery/jquery_events.php)
+
+[Методы событий jQuery - ru.langschools.com](https://ru.langschools.com/jquery/jquery-events.php)

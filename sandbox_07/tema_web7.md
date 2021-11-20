@@ -248,4 +248,6 @@ window.jQuery = window.$ = jQuery;
 
 [jQuery события](https://basicweb.ru/jquery/jquery_events.php)
 
-[Методы событий jQuery - ru.langschools.com](https://ru.langschools.com/jquery/jquery-events.php)
+[Азы jQuery - WebReference](https://webref.ru/dev/jqfundamentals/jquery-basics)
+
+[Методы событий jQuery - rulangschools.com](https://ru.langschools.com/jquery/jquery-events.php)

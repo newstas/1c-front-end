@@ -273,3 +273,5 @@ CSS свойство `display` указывает *тип элемента*. О�
 [Все значения свойства display](https://learn.javascript.ru/display)
 
 [display: inline-block | HTML5CSS.ru](https://html5css.ru/css/css_inline-block.php)
+
+[Свойство float](https://learn.javascript.ru/float)

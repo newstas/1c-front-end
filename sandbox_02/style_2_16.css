@@ -1,15 +1,15 @@
-.container216 {
+.container {
     background-color: red;
     overflow: auto;
 }
 
-.outer216 {
+.outer {
     background-color: green;
     margin: 15px;
     padding: 15px;
 }
 
-.inner216 {
+.inner {
     background-color: blue;
     height: 250px;
 }

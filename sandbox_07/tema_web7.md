@@ -283,4 +283,6 @@ window.jQuery = window.$ = jQuery;
 
 [Методы событий jQuery - rulangschools.com](https://ru.langschools.com/jquery/jquery-events.php)
 
+[Простой учебник jQuery](http://gearmobile.github.io/tags/#jquery)
+
 [Метод siblings библиотеки jQuery](http://gearmobile.github.io/jquery/siblings-jquery/)

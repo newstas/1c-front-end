@@ -282,3 +282,5 @@ window.jQuery = window.$ = jQuery;
 [Азы jQuery - WebReference](https://webref.ru/dev/jqfundamentals/jquery-basics)
 
 [Методы событий jQuery - rulangschools.com](https://ru.langschools.com/jquery/jquery-events.php)
+
+[Метод siblings библиотеки jQuery](http://gearmobile.github.io/jquery/siblings-jquery/)

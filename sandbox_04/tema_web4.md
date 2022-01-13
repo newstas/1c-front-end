@@ -352,7 +352,7 @@ console.log(element);
 
 ### CSS events:
 
-`transitionend` – когда CSS-анимация завершена.
+- `transitionend` – когда CSS-анимация завершена.
 
 Существует множество других событий.
 

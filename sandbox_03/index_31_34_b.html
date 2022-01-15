@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>justify-content</title>
-        <style>
-            html, body {
-    height: 100%;
-    margin: 0;
-}
 
-.inner {
-    background-color: red;
-    margin: 15px;
-    border-radius: 5px;
-    
-    width: 300px;
-    
-    font-size: 72px;
-    text-align: center;
-    color: white;
-}
+<head>
+    <meta charset="utf-8">
+    <title>justify-content</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
 
-.outer {
-    display: flex; /* дисплей: гибкий */
-    flex-wrap: wrap; /* гибкая упаковка: переност на следующию строчку (поворот) */
-    justify-content: center; /* выравнивание контента по горизонтали: центр */
-}
-        </style>
-    </head>
-    <body>
-        <div class="outer">
-            <div class="inner">1</div>
-            <div class="inner">2</div>
-            <div class="inner">3</div>
-            <div class="inner">4</div>
-            <div class="inner">5</div>
-        </div>
-    </body>
+        .inner {
+            background-color: red;
+            margin: 15px;
+            border-radius: 5px;
+
+            width: 300px;
+
+            font-size: 72px;
+            text-align: center;
+            color: white;
+        }
+
+        .outer {
+            /* дисплей: гибкий */
+            display: flex;
+            /* гибкая упаковка: переност на следующию строчку (поворот) */
+            flex-wrap: wrap;
+            /* выравнивание контента по горизонтали: центр */
+            justify-content: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+        <div class="inner">5</div>
+    </div>
+</body>
+
 </html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FlexBox</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .block {
+            background: linear-gradient(135deg, orange, red);
+            border-radius: 5px;
+            width: 300px;
+            height: 100px;
+        }
+
+        .block:active {
+            transform: scaleX(1.5) scaleY(0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block"></div>
+</body>
+
+</html>

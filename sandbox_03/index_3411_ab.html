@@ -1,135 +1,139 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>align-content</title>
-        <style>
-        
-.inner1 {
-    background-color: red;
-    margin: 15px;
-    border-radius: 5px;
-    
-    width: 800px;
-    
-    font-size: 32px;
-    text-align: center;
-    color: white;
-}
 
-.inner2 {
-    background-color: red;
-    margin: 15px;
-    border-radius: 5px;
-    
-    width: 300px;
-    
-    font-size: 32px;
-    text-align: center;
-    color: white;
-}
-            
-.inner3 {background-color: red;
-    margin: 15px;
-    border-radius: 5px;
-    
-    width: 700px;
-    
-    font-size: 32px;
-    text-align: center;
-    color: white;
-}
-            
-.inner4 {background-color: red;
-    margin: 15px;
-    border-radius: 5px;
-    
-    width: 500px;
-    
-    font-size: 32px;
-    text-align: center;
-    color: white;
-}
-  
-.inner5 {background-color: red; 
-    margin: 15px;
-    border-radius: 5px;
-    
-    width: 600px;
-    
-    font-size: 32px;
-    text-align: center;
-    color: white;
-}
-            
-            
-.adc {
-    max-width: 950px;
-    padding: 10px;
-    background-color: aqua;
-        
-    
-} 
-            
-.adc:hover .inner1 {
-    width: 200px; 
-    transition: width 1s ease;
-}
+<head>
+    <meta charset="utf-8">
+    <title>align-content</title>
+    <style>
+        .inner1 {
+            background-color: red;
+            margin: 15px;
+            border-radius: 5px;
 
-.adc:hover .inner2 {
-    width: 200px;
-    transition: width 1s ease-in;
-}
-            
-.adc:hover .inner3 {
-    width: 200px;
-    transition: width 1s ease-out;
-}
+            width: 800px;
 
-.adc:hover .inner4 {
-    width: 200px;
-    transition: width 1s ease-in-out;
-}    
-   
-.adc:hover .inner5 {
-    width: 200px;
-    transition: width 1s linear;
-}
-            
-.adc:active .inner1 {
-    width: 900px; 
-    transition: width 1s ease;
-            }
-               
-.adc:active .inner2 {
-    width: 900px; 
-    transition: width 1s ease;
-            }
-            
-.adc:active .inner3 {
-    width: 900px; 
-    transition: width 1s ease;
-            }
-            
-.adc:active .inner4 {
-    width: 900px; 
-    transition: width 1s ease;
-            }
-            
-.adc:active .inner5 {
-    width: 900px; 
-    transition: width 1s ease;
-            }
-      
-        </style>
-    </head>
-    <body>
-        <div class="adc">
-            <div class="inner1">ease</div>
-            <div class="inner2">ease-in</div>
-            <div class="inner3">ease-out</div>
-            <div class="inner4">ease-in-out</div>
-            <div class="inner5">linear</div>
-        </div>
-    </body>
-</html>
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+
+        .inner2 {
+            background-color: red;
+            margin: 15px;
+            border-radius: 5px;
+
+            width: 300px;
+
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+
+        .inner3 {
+            background-color: red;
+            margin: 15px;
+            border-radius: 5px;
+
+            width: 700px;
+
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+
+        .inner4 {
+            background-color: red;
+            margin: 15px;
+            border-radius: 5px;
+
+            width: 500px;
+
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+
+        .inner5 {
+            background-color: red;
+            margin: 15px;
+            border-radius: 5px;
+
+            width: 600px;
+
+            font-size: 32px;
+            text-align: center;
+            color: white;
+        }
+
+
+        .adc {
+            max-width: 950px;
+            padding: 10px;
+            background-color: aqua;
+
+
+        }
+
+        .adc:hover .inner1 {
+            width: 200px;
+            transition: width 1s ease;
+        }
+
+        .adc:hover .inner2 {
+            width: 200px;
+            transition: width 1s ease-in;
+        }
+
+        .adc:hover .inner3 {
+            width: 200px;
+            transition: width 1s ease-out;
+        }
+
+        .adc:hover .inner4 {
+            width: 200px;
+            transition: width 1s ease-in-out;
+        }
+
+        .adc:hover .inner5 {
+            width: 200px;
+            transition: width 1s linear;
+        }
+
+        .adc:active .inner1 {
+            width: 900px;
+            transition: width 1s ease;
+        }
+
+        .adc:active .inner2 {
+            width: 900px;
+            transition: width 1s ease;
+        }
+
+        .adc:active .inner3 {
+            width: 900px;
+            transition: width 1s ease;
+        }
+
+        .adc:active .inner4 {
+            width: 900px;
+            transition: width 1s ease;
+        }
+
+        .adc:active .inner5 {
+            width: 900px;
+            transition: width 1s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="adc">
+        <div class="inner1">ease</div>
+        <div class="inner2">ease-in</div>
+        <div class="inner3">ease-out</div>
+        <div class="inner4">ease-in-out</div>
+        <div class="inner5">linear</div>
+    </div>
+</body>
+
+</html

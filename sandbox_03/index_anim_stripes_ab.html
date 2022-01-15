@@ -67,8 +67,6 @@
 
 
         .adc {
-            display: flex;
-            flex-direction: column
             max-width: 950px;
             padding: 10px;
             background-color: aqua;
@@ -107,22 +105,22 @@
 
         .adc:active .inner2 {
             width: 900px;
-            transition: width 1s ease;
+            transition: width 1s ease-in;
         }
 
         .adc:active .inner3 {
             width: 900px;
-            transition: width 1s ease;
+            transition: width 1s ease-out;
         }
 
         .adc:active .inner4 {
             width: 900px;
-            transition: width 1s ease;
+            transition: width 1s ease-in-out;
         }
 
         .adc:active .inner5 {
             width: 900px;
-            transition: width 1s ease;
+            transition: width 1s linear;
         }
     </style>
 </head>

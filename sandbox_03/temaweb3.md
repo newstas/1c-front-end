@@ -247,6 +247,29 @@ CSS transitions предоставляют способ контролирова
 - `ease-in-out` - указывает эффект перехода с медленным началом и концом
 
 
+# Свойства `font-size` и `line-height`
+
+- `font-size` – размер шрифта, в частности, определяющий высоту букв.
+- `line-height` – высота строки.
+
+
+## `line-height`
+
+Размер строки, обычно он больше размера шрифта. При установке множителем рассчитывается каждый раз относительно текущего шрифта, при установке в единицах измерения – фиксируется.
+
+
+## `font-size`
+
+Размер шрифта. Если сделать блок такой же высоты, как шрифт, то хвосты букв будут вылезать из-под него.
+
+
+```css
+font: 125%/1.5 FontFamily
+```
+
+Даёт возможность одновременно задать размер, высоту строки и, собственно, сам шрифт.
+
+
 ***
 Ресурсы:
 
@@ -255,3 +278,5 @@ CSS transitions предоставляют способ контролирова
 [Основные понятия Flexbox](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[Свойства font-size и line-height](https://learn.javascript.ru/font-size-line-height)

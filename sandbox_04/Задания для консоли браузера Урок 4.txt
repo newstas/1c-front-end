@@ -17,7 +17,7 @@ fullName = firstName + " " + lastName;
 
 ***
 
-4.3.2 DOM - ОБЪКТНАЯ МОДЕЛЬ ДОКУМЕНТА
+4.3.2 DOM - ОБЪЕКТНАЯ МОДЕЛЬ ДОКУМЕНТА
 
 // Задаем для кнопки ковертора (Файл 4.2) атрибут id в значение convert и сохраняем в переменную node и вызываем эту переменную
 var node = document.getElementById("convert");

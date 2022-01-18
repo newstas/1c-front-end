@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Конвертор температур</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            border-radius: 5px;
+            border: 1px solid grey;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 1.14em;
+        }
+
+        .conteiner {
+            transition: transform 0.5s ease;
+        }
+
+        .conteiner:hover {
+            transform: scale(2);
+        }
+
+        button {
+            background-color: #4D4DFF;
+            opacity: 0.7;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        button:active {
+            opacity: 1;
+        }
+
+        #convert {
+            width: 25%;
+            margin-right: 10px;
+        }
+
+        .container__result {
+            display: flex;
+            margin: 10px 0;
+        }
+
+        *:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <input type="text" id="celsius" placeholder="Температура в &#8451;">
+        <div class="container__result">
+            <button id="convert">в &#8457;!</button>
+            <input type="text" id="farenheit" disabled>
+        </div>
+    </div>
+    <script>
+        // Выводим в консоль браузера общее число нажатий на кнопку - к файлу index_451.html
+        var button = document.getElementById("convert");
+        var count = 0;
+
+        function print() {
+            count = count + 1;
+            console.log("Колличество нажатий кнопки: " + count);
+        }
+
+        // выводим ответ при помощи обработчика события - функция print вызывается при событии "click"
+        button.addEventListener("click", print);
+    </script>
+</body>
+
+</html>

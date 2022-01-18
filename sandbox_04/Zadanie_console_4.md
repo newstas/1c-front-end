@@ -136,21 +136,23 @@ x + 1;
 "31" // ответ, где своийто value является строкой, поэтому при сложении стрики и числа "3" + 1, для исправления нужно воспользоваться функцией Nunber
 
 
-
+```js
 // Исправляем строку на число. Используем фукцию Number, которая принимает строку и возвращает число - продолжение к файлу index_451.html - строки и числа, 
 var input = document.getElementById("field");
 var x = input.value;
 x = Number(input.value);
 x + 1;
+```
 
-
+```js
 // Конвертор температур: формула перевода Цельсия в Фаренгейты 
 var c, f;
 c = 10
 f =( 9 / 5 * c) + 32;
+```
 
 
-
+```js
 // Дает ответ в градусах Фаренгейта, c оруглением за счет toFixed(1) в панели Chrom - к файлу index_451.html
 
 var elField = document.getElementById("field"); // Кэшируем мастоположение "field"
@@ -164,23 +166,25 @@ var shipping;
 shipping =( 9 / 5 * x) + 32; // формула перевода градусов в фаренгейты
 
 document.getElementById("subtotal").value = shipping.toFixed(1) // Задаем свойство (текстовое значение) value с помощью textObject. value = text, затем округляем за счет toFixed(1)
+```
 
 
 
-
+```js
 // Готовый КОНВЕРТОР ТЕМПЕРАТУР - к файлу index_451.html
 var button = document.getElementById("convert");
-                 
-                 function print() {
-                     var elField = document.getElementById("field");
-                     var x = elField.value;
-                     x = Number(elField.value);
-                     shipping = ( 9 / 5 * x) + 32;
-                     
-                     document.getElementById("subtotal").value = shipping.toFixed(1);
-                 }
-                 
-                 button.addEventListener("click", print); // выводим ответ при помощи обработчика события - функция print вызывается при событии "click"
+
+function print() {
+    var elField = document.getElementById("field");
+    var x = elField.value;
+    x = Number(elField.value);
+    shipping = (9 / 5 * x) + 32;
+
+    document.getElementById("subtotal").value = shipping.toFixed(1);
+}
+
+button.addEventListener("click", print); // выводим ответ при помощи обработчика события - функция print вызывается при событии "click"
+```
 				 
 				 
 

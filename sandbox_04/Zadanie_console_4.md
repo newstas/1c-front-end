@@ -124,7 +124,7 @@ button.addEventListener("click", print);
 
 # 4.5.1 КОНВЕРТОР ТЕМПЕРАТУР: ФУКЦИОНАЛЬНОСТЬ
 
-4.5.1.1 Строки и числа
+## 4.5.1.1 Строки и числа
 
 // Берем число из текстового поля "field" и добавляем к нему число - файл index_451.html - строки и числа,
 var input = document.getElementById("field");

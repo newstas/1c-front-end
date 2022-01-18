@@ -450,6 +450,11 @@ console.log(element);
 element.removeEventListener(event, handler[, options]);
 ```
 
+
+### Присваиваем значение с помощью `.value`
+
+Для JavaScript поля формы не имеют текстового содержимого, их значения 
+хранятся именно в `value`.
  
 
 ***

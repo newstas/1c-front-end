@@ -47,6 +47,8 @@ var name = node.id;
 node.innerHTML = "Convert";
 ```
 
+*Ответ*: 'Convert'
+
 
 # 4.3.3 ФУКЦИИ
 

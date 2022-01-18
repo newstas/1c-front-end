@@ -489,6 +489,8 @@ element.removeEventListener(event, handler[, options]);
 
 [Типы данных](https://learn.javascript.ru/types)
 
+[DOM-дерево](https://learn.javascript.ru/dom-nodes)
+
 
 [Курс JavaScript - Основные концепции и особенности разработки](http://jsflow.org/)
 

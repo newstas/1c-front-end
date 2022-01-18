@@ -503,3 +503,5 @@ element.removeEventListener(event, handler[, options]);
 
 
 [Используем console.log() в Chrome на полную](https://habr.com/ru/post/480700/)
+
+[Откройте Microsoft Edge DevTools](https://docs.microsoft.com/ru-ru/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows)

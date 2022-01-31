@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"> 
-  <title>true-false</title>
-        <style>
-            html, body {
-                height: 100%;
-                margin: 0;
-            }
-            
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        </style>
-    </head>
-    <body>
-        <input type="checkbox" id="toggle">On / Off
-        <script>
-            var checkbox = document.getElementById("toggle");
-            
-            checkbox.addEventListener("click", function() {
-                console.log(checkbox.checked);
-            });
-        </script>
-    </body> 
+
+<head>
+    <meta charset="utf-8">
+    <title>true-false</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" id="toggle">On / Off
+    <script>
+        var checkbox = document.getElementById("toggle");
+
+        checkbox.addEventListener("click", function() {
+            console.log(checkbox.checked);
+        });
+
+    </script>
+</body>
+
 </html>
- 

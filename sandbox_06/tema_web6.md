@@ -277,11 +277,10 @@ Set имеет очень полезное свойство под назван�
 
 `Array` |əˈreɪ| - массив, поле, матрица, строй, боевой порядок, войско
 
-[Объекты](https://learn.javascript.ru/object)
+
+[Работа с объектами- MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 [Массивы](https://learn.javascript.ru/array)
-
-[Объекты - Object](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 [Упорядоченные наборы данных](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Indexed_collections)
 

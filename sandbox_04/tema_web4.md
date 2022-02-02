@@ -139,8 +139,6 @@ recurse(10)
 ```
 *Ответ:* `10 9 8 7 6 5 4 3 2 1`
 
-[Функции - MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Functions)
-
 
 # Структуры и типы данных
 
@@ -565,6 +563,8 @@ element.removeEventListener(event, handler[, options]);
 [Грамматика и типы](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Grammar_and_types)
 
 [Структура кода](https://learn.javascript.ru/structure)
+
+[Функции - MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Functions)
 
 [Особенности JavaScript](https://learn.javascript.ru/javascript-specials)
 

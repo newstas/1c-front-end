@@ -1,6 +1,6 @@
 var duck = {
     name: "Дональд",
-    weight: 10,
+    weight: 1.2,
     quack: function () {
         console.log("Кря!");
     },
@@ -54,8 +54,7 @@ function truthy() {
 
 function falsy() {
     console.log("Я ложна!");
-    r
-    eturn false;
+    return false;
 }
 
 

@@ -1,13 +1,11 @@
-var = duck {
-    name: "Уточка",
+var duck = {
+    name: "Дональд",
     weight: 10,
-    quack: "Кря!",
-
-
-    checkAvailability: function () {
-        return this.rooms - this.boocked;
-    }
-}
+    quack: function () {
+        console.log("Кря!");
+    },
+    siblings: ["Делла"]
+};
 
 
 var square = document.createElement("div");
@@ -81,11 +79,3 @@ for (i = 0; i < 3; i = i + 1) {
     console.log(i);
 }
 
-var duck = {
-    name: "Уточка",
-    weight: 10,
-
-    quack: function () {
-        console.log("Кря!");
-    }
-}

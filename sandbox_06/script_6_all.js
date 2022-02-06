@@ -8,10 +8,9 @@ var duck = {
 };
 
 
+
 var square = document.createElement("div");
 container.appendChild(square);
-
-
 
 
 
@@ -19,6 +18,7 @@ var i;
 for (i = 0; i < 3; i = i + 1) {
     console.log(i);
 }
+
 
 
 var i = 1;
@@ -29,8 +29,6 @@ while (i < 3) {
 
 
 
-
-
 var i = 0;
 while (i < 3) {
     console.log(i);
@@ -38,12 +36,12 @@ while (i < 3) {
 }
 
 
+
 var i = 0;
 while (i < 3) {
     i = i + 1;
     console.log(i);
 }
-
 
 
 
@@ -52,15 +50,19 @@ function truthy() {
     return true;
 }
 
+
+
 function falsy() {
     console.log("Я ложна!");
-    return false;
+    r
+    eturn false;
 }
+
+
 
 if (truthy() || falsy()) {
     console.log("Условие верно!");
 }
-
 
 
 
@@ -73,6 +75,8 @@ function min(a, b, c) {
         return c;
     }
 }
+
+
 
 var i;
 for (i = 0; i < 3; i = i + 1) {

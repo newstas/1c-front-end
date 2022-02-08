@@ -121,6 +121,12 @@ for(key in car) {
 
 Объекты можно создавать с помощью `new Object()`**конструктора**, `Object.create()` или `let obj = {}` **синтаксиса инициализатора/литерала объекта**.
 
+```js
+let obj = {};
+let obj = new Object();
+let obj = new Object.create(null);
+```
+
 
 # Массивы `Array`
 

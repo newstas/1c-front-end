@@ -432,3 +432,7 @@ arr.key2 = 22;
 [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 [Ассоциативные массивы в JavaScript](https://itchief.ru/javascript/associative-arrays)
+
+[Наследование и цепочка прототипов](https://developer.mozilla.org/ru/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
+[Классы](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes)

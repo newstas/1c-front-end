@@ -140,8 +140,8 @@
 - `flex-start`: блоки прижаты к началу поперечной оси
 - `flex-end`: блоки прижаты к концу поперечной оси
 - `center`: блоки располагаются в центре поперечной оси
-- `baseline`: блоки выровнены по их baseline
 - `stretch` (значение по умолчанию) : блоки растянуты, занимая все доступное место по поперечной оси, при этом все же учитываются `min-width`/`max-width`, если таковые заданы.
+- `baseline`: блоки выровнены по их baseline
 
 [![flex-align-items-300x300.png](https://i.postimg.cc/qvY085JX/flex-align-items-300x300.png)](https://postimg.cc/68dDKzGy)
 

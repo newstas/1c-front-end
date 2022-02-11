@@ -7,14 +7,14 @@
   - изчим **синтаксис** JQuery
   
 - изучим **фукциональность** JQuery, фукции:
-  - `on()` (события)
-  - `hide()`, `show()`, `toggle()`
-  - `html()` и `attr()`
-  - `append()` и `prepend()`
-  - `css()`
-  - `width()` и `height()`
-  - `addClass()`, `removeClass` и `toggleClass`
-  - `parent`, `children`  и `siblings`
+  - `.on()` (события)
+  - `.hide()`, `.show()`, `.toggle()`
+  - `.html()` и `.attr()`
+  - `.append()` и `.prepend()`
+  - `.css()`
+  - `.width()` и `.height()`
+  - `.addClass()`, `.removeClass` и `.toggleClass`
+  - `.parent`, `.children`  и `.siblings`
 
 
 ## Практическое задание:
@@ -217,7 +217,7 @@ $("p").click(function(){
 ```
 
 
-## Функция `on`
+## Функция `.on`
 
 Функция `on` похожа на фукцию `addEvenListener` - добавляет обработчик события
 выбранным элементам

@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>JQuery - f() append, prepend</title>
-    </head>
-    <body>
-        <ul class="list">
-            <li>Первый исходный элемент</li>
-            <li>Второй исходный элемент</li>
-        </ul>
-        <button type="button" id="append">Добавить в конец</button>
-        <button type="button" id="prepend">Добавить в начало</button>
-        <script src="jquery-2.1.4.min.js"></script>
-        <script>
-            $("#append").on("click", function() {
-                $(".list").append("<li>Элемент в конце</li>");
-            });
-            
-            $("#prepend").on("click", function() {
-                $(".list").prepend("<li>Элемент в начале</li>");
-            });
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>JQuery - f() append, prepend</title>
+</head>
+
+<body>
+    <ul class="list">
+        <li>Первый исходный элемент</li>
+        <li>Второй исходный элемент</li>
+    </ul>
+    <button type="button" id="append">Добавить в конец</button>
+    <button type="button" id="prepend">Добавить в начало</button>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script>
+        $("#append").on("click", function() {
+            $(".list").append("<li>Элемент в конце</li>");
+        });
+
+        $("#prepend").on("click", function() {
+            $(".list").prepend("<li>Элемент в начале</li>");
+        });
+
+    </script>
+</body>
+
 </html>

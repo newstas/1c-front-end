@@ -291,6 +291,10 @@ window.jQuery = window.$ = jQuery;
 
 ## Источники 
 
+[jQuery CDN](https://releases.jquery.com/)
+
+[Русская документация по API jQuery](https://jquery-docs.ru/)
+
 [Учебное пособие по jQuery - w3schools](https://www.w3schools.com/jquery/default.asp)
 
 [jQuery события](https://basicweb.ru/jquery/jquery_events.php)

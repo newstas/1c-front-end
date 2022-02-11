@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>JQuery - html, attr</title>
-        <style>
-            .block {
-                width: 50px;
-                height: 50px;
-                margin: 10px;
-                background-color: black;
-            }
-            
-            .block--lit {
-                background-color: yellow;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="block"></div>
-        <button type="button" id="switch">ВКЛ / ВЫКЛ</button>
-        <script src="jquery-2.1.4.min.js"></script>
-        <script>
-            $("#switch").on("click", function() {
-                $(".block").toggleClass("block--lit");
-            });
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>JQuery - html, attr</title>
+    <style>
+        .block {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            background-color: black;
+        }
+
+        .block--lit {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="block"></div>
+    <button type="button" id="switch">ВКЛ / ВЫКЛ</button>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script>
+        $("#switch").on("click", function() {
+            $(".block").toggleClass("block--lit");
+        });
+
+    </script>
+</body>
+
 </html>

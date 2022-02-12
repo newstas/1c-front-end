@@ -290,6 +290,45 @@ $("p").on({
 }); 
 ```
 
+# Разбираем задание Головоломка
+
+```css
+<style > 
+.block {
+    margin: 20px auto;
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    background-color: black;
+}
+
+.block--active {
+    background-color: red;
+}
+
+</style >
+```
+
+```html
+<body>
+    <div id="container"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"> </script>
+    <script>
+        var i, block;
+        for (i = 0; i < 5; ++i) {
+            block = $("<div> </div>");
+            block.addClass("block");
+            $("#container").append(block);
+        }
+        $(".block").on("mouseenter", function() {
+            $(this).siblings().toggleClass("block--active");
+        });
+
+    </script>
+</body>
+```
+
+
 # Разбираем задание Список дел 
 
 ```html

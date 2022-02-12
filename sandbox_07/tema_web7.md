@@ -319,8 +319,27 @@ $(".block").on("click", function () { // подключаем обработчи
 В этом примере при нажатии на любой объект с классом `block` у данного объекта
 будет переключен класс на `block--active`
 
+### Колбэк-функция
+
 **Колбэк-функция (или обратный вызов)** - это функция, переданная в другую функцию в качестве аргумента, 
 которая затем вызывается по завершению какого-либо действия.
+
+Пример:
+
+```js
+function greeting(name) {
+  alert('Hello ' + name);
+}
+
+function processUserInput(callback) {
+  var name = prompt('Please enter your name.');
+  callback(name);
+}
+
+processUserInput(greeting);
+```
+
+*Выше приведён пример синхронного колбэка, поскольку функция `processUserInput` выполняется синхронно*
 
 
 ## Готовый код Головоломки
@@ -495,3 +514,5 @@ window.jQuery = window.$ = jQuery;
 [Метод siblings библиотеки jQuery](http://gearmobile.github.io/jquery/siblings-jquery/)
 
 [Что такое callback-функция в JavaScript?](https://ru.hexlet.io/blog/posts/javascript-what-the-heck-is-a-callback)
+
+[Колбэк-функция - MDN](https://developer.mozilla.org/ru/docs/Glossary/Callback_function)

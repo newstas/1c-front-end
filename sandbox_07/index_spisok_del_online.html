@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Список дел</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        input[type="text"] {
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <ol id="list"></ol> <!-- нумерованный список -->
+        <input type="text" id="field"> <!--  поле ввода -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $("#field").on("keydown", function(event) { // подключаем обработчик события для поля ввода по id field
+            var item;
+            if (event.which == 13) { // условие для сравнения нажатой клавиши Enter (код 13)
+                item = $("<li></li>"); // создаем элемент списка ol и присваиваем переменной item
+                item.html($(this).val()); // сохраняем в переменной item значение поля input в формает html
+                $(this).val(" "); // очищаем поле input, присваиваем пустое значение
+                item.on("click", function() { // подключаем обработчик события для очистки элеметов li списка ol
+                    $(this).remove(); // удаляем элемент списка ol при нажатии кнопки мыши
+                });
+                $("#list").append(item); // вставляет содержимое, заданное параметром item, в конец последнего элемента ol по id list
+            }
+        });
+
+    </script>
+</body>
+
+</html>

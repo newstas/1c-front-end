@@ -312,11 +312,11 @@ $("p").on({
 ```html
 <body>
     <div id="container"></div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
         var i, block;
         for (i = 0; i < 5; ++i) {
-            block = $("<div> </div>");
+            block = $("<div></div>");
             block.addClass("block");
             $("#container").append(block);
         }

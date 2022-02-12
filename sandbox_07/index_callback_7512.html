@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Обратный вызов</title>
+    <style>
+        .block {
+            margin: 20px auto;
+            border-radius: 20px;
+            height: 50px;
+            width: 400px;
+            background-color: black;
+        }
+
+        .block--active {
+            background-color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        let block = $("<div></div"); // jQuery создает элемент div и присваиваиваем переменной block
+        block.addClass("block"); // добавляем класс к созданному элементу div в переменной block
+        $("#container").append(block); // к элементу с id container присоеденяется элемент, находящийся в переменной block
+        $(".block").on("click", function() { // подключаем обработчик события к созданному новому элементу с классом .block
+            $(this).toggleClass("block--active"); // добавляет или удаляет заданный классы по принципу переключателя между .block и block--active
+        });
+
+    </script>
+</body>
+
+</html>

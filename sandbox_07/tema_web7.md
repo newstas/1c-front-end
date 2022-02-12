@@ -490,3 +490,5 @@ window.jQuery = window.$ = jQuery;
 [Простой учебник jQuery](http://gearmobile.github.io/tags/#jquery)
 
 [Метод siblings библиотеки jQuery](http://gearmobile.github.io/jquery/siblings-jquery/)
+
+[Что такое callback-функция в JavaScript?](https://ru.hexlet.io/blog/posts/javascript-what-the-heck-is-a-callback)

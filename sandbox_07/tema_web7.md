@@ -298,7 +298,7 @@ $("p").on({
 
 ```js
 let block = $("<div></div"); // jQuery создает элемент div и присваиваиваем переменной block
-block.html("Hello!"); // в переменную блок помещается код html со строкой Hello!
+block.html("Hello!"); // в переменную block помещается код html со строкой Hello!
 $("#container").append(block); // к элементу с id container присоеденяется элемент, находящийся в переменной block
 ```
 

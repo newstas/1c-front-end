@@ -27,6 +27,7 @@
         let block = $("<div></div"); // jQuery создает элемент div и присваиваиваем переменной block
         block.addClass("block"); // добавляем класс к созданному элементу div в переменной block
         $("#container").append(block); // к элементу с id container присоеденяется элемент, находящийся в переменной block
+        
         $(".block").on("click", function() { // подключаем обработчик события к созданному новому элементу с классом .block
             $(this).toggleClass("block--active"); // добавляет или удаляет заданный классы по принципу переключателя между .block и block--active
         });

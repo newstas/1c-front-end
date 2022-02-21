@@ -11,25 +11,27 @@
             padding: 15px;
             margin: 15px;
         }
-
     </style>
 </head>
 
 <body>
     <div class="ancestor">
         <div id="outer">
-            <div></div>
-            <div id="inner"></div>
-            <div></div>
+            <div>
+                <div></div>
+                <div id="inner"></div>
+                <div></div>
+            </div>
         </div>
     </div>
 
     <script src="jquery-2.1.4.min.js"></script>
+
     <script>
         $("#outer").children().css({
             border: "1px solid red"
         });
-
+        
     </script>
 </body>
 

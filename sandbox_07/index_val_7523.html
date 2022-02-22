@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Функция .val()</title>
+
+</head>
+
+<body>
+    <div>
+
+        <input type="text" id="field"> <!--  поле ввода -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $("#field").on("keydown", function(event) {
+            let field = $("#field");
+            let text = field.val();
+            if (event.which == 13) {
+                field.val("");
+            }
+        });
+
+    </script>
+</body>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Определение нажатой клавиши</title>
+
+</head>
+
+<body>
+    <div>
+        <input type="text" id="field"> <!--  поле ввода -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    
+  <script>
+        $("#field").on("keydown", function(event) { // подключаем обработчик события для поля ввода по id field
+            if (event.which == 13) {
+                alert("Была нажата клавиша Enter");
+            }
+        });
+
+    </script>
+</body>
+
+</html>

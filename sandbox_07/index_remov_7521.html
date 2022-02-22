@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Функция remov()</title>
+</head>
+
+<body>
+    <div>
+        <ol>
+            <li id=list>привет</li>
+        </ol>
+    </div>
+    <script src="jquery-2.1.4.js"></script>
+    
+       <script>
+        var item;
+        item = $("#list"); // присваиваем переменной item элемент списка ol
+
+        item.on("click", function() { // подключаем обработчик события для очистки элеметов li списка ol
+            $(this).remove(); // удаляем элемент списка ol при нажатии кнопки мыши
+        });
+
+    </script>
+</body>
+
+</html>

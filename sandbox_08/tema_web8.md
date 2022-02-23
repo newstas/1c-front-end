@@ -272,3 +272,7 @@ Boostrap переводится в контексте фреймворка ка�
 /* xl (>=1200) */
 @media (min-width: 1200px) { ... }
 ```
+
+***
+
+[CSS медиа-запросы (media queries)](https://itchief.ru/html-and-css/media-queries)

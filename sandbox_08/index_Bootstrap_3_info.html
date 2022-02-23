@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Подключаем метатег viewport к странице -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        .m {
+            font-size: 24px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .b1, .b2, .b3 {
+            height: 200px;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            padding-top: 50px;
+        }
+
+        .b1 {
+            background-color: #4f81bd;
+        }
+
+        .b2 {
+            background-color: #ffc000;
+        }
+
+        .b3 {
+            background-color: #c00000;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- Контент страницы -->
+<div class="container">
+
+    <h1 class="h3 text-center">Пример создания макета с помощью сетки Bootstrap 3</h1>
+
+    <div class="visible-xs-block m">XS УСТРОЙСТВО</div>
+    <div class="visible-sm-block m">SM УСТРОЙСТВО</div>
+    <div class="visible-md-block m">MD УСТРОЙСТВО</div>
+    <div class="visible-lg-block m">LG УСТРОЙСТВО</div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 b1">Контент блока 1...</div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 b2">Контент блока 2...</div>
+        <div class="clearfix visible-md-block"></div>
+        <div class="col-xs-12 col-sm-6 col-md-12 col-lg-3 b3">Контент блока 3...</div>
+    </div>
+
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

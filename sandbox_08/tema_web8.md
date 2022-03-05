@@ -433,6 +433,8 @@ HTML-разметка ряда:
 
 [Bootstrap 4 Учебник, Справочник RU — html5css](https://html5css.ru/bootstrap4/default.php)
 
+[Разметка - Grid](https://getbootstrap.ru/docs/v4-alpha/layout/grid/)
+
 [CSS медиа-запросы (media queries)](https://itchief.ru/html-and-css/media-queries)
 
 [Bootstrap 4 - Сетка](https://itchief.ru/bootstrap/grid-v4)

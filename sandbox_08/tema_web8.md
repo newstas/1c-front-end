@@ -407,7 +407,7 @@ HTML-разметка ряда:
 
 ***
 
-[Bootstrap 4 Учебник, Справочник RU — html5css(https://html5css.ru/bootstrap4/default.php)
+[Bootstrap 4 Учебник, Справочник RU — html5css](https://html5css.ru/bootstrap4/default.php)
 
 [CSS медиа-запросы (media queries)](https://itchief.ru/html-and-css/media-queries)
 

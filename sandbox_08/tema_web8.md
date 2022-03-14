@@ -429,6 +429,55 @@ HTML-разметка ряда:
 @media (min-width: 1200px) { ... }
 ```
 
+# Разбор Списка дел
+
+
+## Выравнивание текста
+
+<div class="col-md-12 text-center">
+
+- `text-center` - Выровненный по центру текст на всех размерах области просмотра
+
+
+## Отступы
+
+<div class="col-md-offset-3 col-md-6">
+
+- `offset` - специальные классы `col-md(sm|lg)-offset-*` позволяют задать смещение относительно левого блока или начала строки в условных единицах
+
+
+## Инструменты контроля форм
+
+ <input type="text" id="field" class="form-control" placeholder="Что нужно сделать?">
+ 
+- `form-control` - текстовые инструменты контроля – такие как `<input>`, `<select>` и `<textarea>` - стилизованы классом `.form-control`, который содержит основные стили внешнего вида, активного состояния, размерности и т.д.
+
+https://bootstrap-4.ru/docs/4.0/components/forms/
+
+
+## Методы Модального окна
+
+### Показать
+
+.modal('show')
+
+Вручную открывает модальное окно. Возвращает абоненту до модальное окно фактически было показано (т. е. shown.bs.modal события).
+
+$('#myModal').modal('show')
+
+### Спрятать
+
+.modal('hide')
+
+Вручную скрывает модальное окно. Возвращает абоненту до модальное окно На самом деле был скрытым (т. е. hidden.bs.modal события).
+
+$('#myModal').modal('hide')
+
+https://getbootstrap.ru/docs/v4-alpha/components/modal/#methods
+
+"list-group-item-danger" - класс Бутстрап
+
+
 ***
 
 [Bootstrap 4 Учебник, Справочник RU — html5css](https://html5css.ru/bootstrap4/default.php)

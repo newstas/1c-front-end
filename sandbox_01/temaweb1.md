@@ -393,4 +393,16 @@ DNS-сервер выполняет этот запрос. Вторичный DN
 
 - **Minimum TTL** – время жизни кэша для негативного ответа на запрос в зонe.
 
-(Подробнее)[https://help.reg.ru/hc/ru/articles/4408047470865]
+[Подробнее](https://help.reg.ru/hc/ru/articles/4408047470865)
+
+## Источники
+
+[Что такое DNS простыми словами](https://help.reg.ru/hc/ru/articles/4408047119761/)
+
+[Что такое домен - доменное имя](https://help.reg.ru/hc/ru/articles/4408047486097/)
+
+[Что такое ресурсные записи DNS](https://help.reg.ru/hc/ru/articles/4408047057937?rtm_source=e-mail&rtm_medium=e-mail&rtm_campaign=NewsSingle_40415)
+
+[Как очистить кэш браузера](https://help.reg.ru/hc/ru/articles/4408046921745/)
+
+[Настройка сети: что такое VPN](https://www.reg.ru/blog/nastrojka-seti-chto-takoe-vpn/?_gl=1*d5qyro*_ga*MTQ1NDQyNTU0My4xNjQ3MjYxODY0*_ga_N9GCQPR82H*MTY0NzI2MTg2My4xLjEuMTY0NzI2NDc4OS41Ng..)

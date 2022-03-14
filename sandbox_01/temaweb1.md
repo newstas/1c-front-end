@@ -1,4 +1,4 @@
-# WEB-I ТЕМА 2 — HyperText Markeup Language (HTML)
+# WEB-I ТЕМА 1 — HyperText Markeup Language (HTML)
 
 На этом занятии мы познакомимся с языком *гипертекстовой разметки* — **HTML**:
 - изучим устройство web-страницы;

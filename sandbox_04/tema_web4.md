@@ -190,7 +190,7 @@ document.getElementById("demo").innerHTML = toCelsius;
 ```
 
 Отевт будет таким: `function toCelsius(f) { return (5/9) * (fahrenheit-32); }` - как 
-видим метод `innerHTML` вывел на страницу саму функцию, а не результат
+видим метод `innerHTML` вывел на страницу саму функцию, а не результат этой функции
 
 
 ## Выбор имени функции

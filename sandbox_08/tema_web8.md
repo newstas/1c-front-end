@@ -499,7 +499,14 @@ $('#myModal').modal('hide')
 Используйте их для стилизации элементов списка и придания им оттенков смысла с помощью цвета и фона.
  
  ```html
- <li class="list-group-item list-group-item-danger">Элемент группы списка опасности</li>
+ <li class="list-group-item list-group-item-primary">Элемент основной группы списков</li>
+  <li class="list-group-item list-group-item-secondary">Дополнительный элемент группы списков</li>
+  <li class="list-group-item list-group-item-success">Элемент группы списка успешных действий</li>
+  <li class="list-group-item list-group-item-danger"><b>Элемент группы списка опасности,/b></li>
+  <li class="list-group-item list-group-item-warning">Элемент группы списка предупреждений</li>
+  <li class="list-group-item list-group-item-info">Элемент группы списка информации</li>
+  <li class="list-group-item list-group-item-light">Элемент группы с легким списком</li>
+  <li class="list-group-item list-group-item-dark">Элемент группы темных списков</li>
 ```
 
 [Контекстуальные классы - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/list-group/#contextual-classes)

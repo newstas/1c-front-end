@@ -458,7 +458,7 @@ HTML-разметка ряда:
  
 - `form-control` - текстовые инструменты контроля – такие как `<input>`, `<select>` и `<textarea>` - стилизованы классом `.form-control`, который содержит основные стили внешнего вида, активного состояния, размерности и т.д.
 
-https://bootstrap-4.ru/docs/4.0/components/forms/
+[Инструменты контроля форм - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/forms/)
 
 
 ## Методы Модального окна

@@ -489,9 +489,21 @@ $('#myModal').modal('hide')
 
 [Методы. Модальное окно - Bootstrap 4](https://getbootstrap.ru/docs/v4-alpha/components/modal/#methods)
 
+
+## Контекстуальные классы
+
 ```html
 "list-group-item-danger" // класс Бутстрап
 ```
+
+Используйте их для стилизации элементов списка и придания им оттенков смысла с помощью цвета и фона.
+ 
+ ```html
+ <li class="list-group-item list-group-item-danger">Элемент группы списка опасности</li>
+```
+
+[Контекстуальные классы - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/list-group/#contextual-classes)
+
 
 ```html
 <div id="remove-dialog" class="modal fade" tabindex="-1">

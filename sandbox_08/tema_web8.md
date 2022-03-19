@@ -487,7 +487,7 @@ $('#myModal').modal('show')
 $('#myModal').modal('hide')
 ```
 
-https://getbootstrap.ru/docs/v4-alpha/components/modal/#methods
+[Методы. Модальное окно - Bootstrap 4](https://getbootstrap.ru/docs/v4-alpha/components/modal/#methods)
 
 "list-group-item-danger" - класс Бутстрап
 

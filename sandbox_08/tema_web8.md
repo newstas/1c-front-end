@@ -502,7 +502,7 @@ $('#myModal').modal('hide')
  <li class="list-group-item list-group-item-primary">Элемент основной группы списков</li>
   <li class="list-group-item list-group-item-secondary">Дополнительный элемент группы списков</li>
   <li class="list-group-item list-group-item-success">Элемент группы списка успешных действий</li>
-  <li class="list-group-item list-group-item-danger">Элемент группы списка опасности</li> // наш пример
+  <li class="list-group-item list-group-item-danger">Элемент группы списка опасности</li>             // наш пример
   <li class="list-group-item list-group-item-warning">Элемент группы списка предупреждений</li>
   <li class="list-group-item list-group-item-info">Элемент группы списка информации</li>
   <li class="list-group-item list-group-item-light">Элемент группы с легким списком</li>

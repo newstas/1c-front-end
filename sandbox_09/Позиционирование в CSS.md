@@ -348,7 +348,7 @@ float'ы слева/справа/с обеих сторон.
 - `Efficient` |ɪˈfɪʃ(ə)nt| - **эффективный**, действенный, рациональный / [звук](https://wooordhunt.ru/word/efficient)
 
 - `Sufficient` |səˈfɪʃnt| - **достаточный**, достаточное количество / [звук](https://wooordhunt.ru/word/sufficient)
-  - I have sufficient — с меня хватит
+  - I have sufficient — с меня **хватит**
 
 
 ## Источники:

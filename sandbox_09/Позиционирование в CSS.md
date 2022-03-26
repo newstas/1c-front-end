@@ -345,7 +345,7 @@ float'ы слева/справа/с обеих сторон.
 - `Deep` |diːp| - **глубокий** / [звук](https://wooordhunt.ru/word/deep)
   - `Deeper` |ˈdiːpə| - **глубже** / [звук](https://wooordhunt.ru/word/deeper)
   
-- `Efficient` |ɪˈfɪʃ(ə)nt| - **эффективный**, действенный, рациональный / [звук](https://wooordhunt.ru/word/efficient)
+- `Efficient` |ɪˈfɪʃnt| - **эффективный**, действенный, рациональный / [звук](https://wooordhunt.ru/word/efficient)
 
 - `Sufficient` |səˈfɪʃnt| - **достаточный**, достаточное количество / [звук](https://wooordhunt.ru/word/sufficient)
   - I have sufficient — с меня **хватит**

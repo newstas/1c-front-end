@@ -256,20 +256,20 @@ float'ы слева/справа/с обеих сторон.
 
 Источники:
 
-https://marksheet.io/css-the-flow.html
+[Поведение веб-страницы по умолчанию](https://marksheet.io/css-the-flow.html)
 
-https://learn.javascript.ru/position
+[Свойство position - learn.javascript.ru](https://learn.javascript.ru/position)
 
-https://learn.javascript.ru/float
+[Свойство float - learn.javascript.ru](https://learn.javascript.ru/float)
 
-https://webref.ru/course/positioning/flow
+[Поток - WebReference](https://webref.ru/course/positioning/flow)
 
-http://htmlbook.ru/samlayout/blochnaya-verstka/potok-dokumenta
+[Поток документа - htmlbook](http://htmlbook.ru/samlayout/blochnaya-verstka/potok-dokumenta)
 
 
-https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA
+[Базовый поток - MDN](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA)
 
-https://medium.com/@egor.hlebnikoff/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA-86deb477dd2
+[Нормальный поток](https://medium.com/@egor.hlebnikoff/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA-86deb477dd2)
 
 
 position
@@ -301,6 +301,3 @@ sticky
 Это сочетание относительного и фиксированного позиционирования. Элемент рассматривается как позиционированный относительно, пока он не пересекает определённый порог, после чего рассматривается как фиксированный. Обычно применяется для фиксации заголовка на одном месте, пока содержимое, к которому относится заголовок, прокручивается на странице.
 	
 
-[Поток/ webref](https://webref.ru/course/positioning/flow)
-
-[Поток документа](http://htmlbook.ru/samlayout/blochnaya-verstka/potok-dokumenta)

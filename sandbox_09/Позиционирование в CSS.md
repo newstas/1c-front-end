@@ -328,9 +328,9 @@ float'ы слева/справа/с обеих сторон.
 
 - `Flow` |fləʊ| - поток, течение - [звук](https://wooordhunt.ru/word/flow)
 
-- `Fluidity` |fluːˈɪdɪtɪ| - текучее состояние; текучесть, изменчивость - [звук](https://wooordhunt.ru/word/fluidity)
+- `Fluidity` |fluːˈɪdɪtɪ| - текучее состояние; текучесть, изменчивость / [звук](https://wooordhunt.ru/word/fluidity)
 
-- `Ordering` |ˈɔːdərɪŋ| - очередность, приведение в порядок; упорядочение, размещение - [звук](https://wooordhunt.ru/word/ordering)
+- `Ordering` |ˈɔːdərɪŋ| - очередность, приведение в порядок; упорядочение, размещение / [звук](https://wooordhunt.ru/word/ordering)
 
 - `Stacking` |ˈstækɪŋ| - наложение, укладка - [звук](https://wooordhunt.ru/word/stacking)
 
@@ -348,7 +348,7 @@ float'ы слева/справа/с обеих сторон.
   
 - `efficient` |ɪˈfɪʃ(ə)nt| - эффективный, действенный, рациональный - [звук](https://wooordhunt.ru/word/efficient)
 
-- `sufficient` |səˈfɪʃnt| - достаточный, достаточное количество - [звук](https://wooordhunt.ru/word/sufficient)
+- `sufficient` |səˈfɪʃnt| - достаточный, достаточное количество / [звук](https://wooordhunt.ru/word/sufficient)
 
 
 ## Источники:

@@ -350,6 +350,8 @@ float'ы слева/справа/с обеих сторон.
 - `Sufficient` |səˈfɪʃnt| - **достаточный**, достаточное количество / [звук](https://wooordhunt.ru/word/sufficient)
   - I have sufficient — с меня **хватит**
 
+- `disrupt` |dɪsˈrʌpt| - разрушать, **нарушать**, срывать / [звук](https://wooordhunt.ru/word/disrupt)
+
 
 ## Источники:
 

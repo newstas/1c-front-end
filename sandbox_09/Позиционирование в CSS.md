@@ -326,7 +326,7 @@ float'ы слева/справа/с обеих сторон.
 ## English
 
 
-- `Flow` |fləʊ| - **поток**, течение /[звук](https://wooordhunt.ru/word/flow)/ 
+- `Flow` |fləʊ| - [поток](https://wooordhunt.ru/word/flow), течение 
 
 - `Fluidity` |fluːˈɪdɪtɪ| - текучее состояние; **текучесть**, изменчивость /[звук](https://wooordhunt.ru/word/fluidity)/
 

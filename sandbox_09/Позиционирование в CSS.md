@@ -326,23 +326,23 @@ float'ы слева/справа/с обеих сторон.
 ## English
 
 
-- `Flow` |fləʊ| - **поток**, течение / [звук](https://wooordhunt.ru/word/flow)
+- `Flow` |fləʊ| - **поток**, течение // [звук](https://wooordhunt.ru/word/flow)
 
-- `Fluidity` |fluːˈɪdɪtɪ| - текучее состояние; **текучесть**, изменчивость / [звук](https://wooordhunt.ru/word/fluidity)
+- `Fluidity` |fluːˈɪdɪtɪ| - текучее состояние; **текучесть**, изменчивость // [звук](https://wooordhunt.ru/word/fluidity)
 
-- `Ordering` |ˈɔːdərɪŋ| - **очередность**, приведение в порядок; упорядочение, размещение / [звук](https://wooordhunt.ru/word/ordering)
+- `Ordering` |ˈɔːdərɪŋ| - **очередность**, приведение в порядок; упорядочение, размещение // [звук](https://wooordhunt.ru/word/ordering)
 
-- `Stacking` |ˈstækɪŋ| - **наложение**, укладка / [звук](https://wooordhunt.ru/word/stacking)
+- `Stacking` |ˈstækɪŋ| - **наложение**, укладка // [звук](https://wooordhunt.ru/word/stacking)
 
-- `Dimensions` |dɪˈmenʃənz| - размер, **измерение** - [звук](https://wooordhunt.ru/word/dimension)
+- `Dimensions` |dɪˈmenʃənz| - размер, **измерение** // [звук](https://wooordhunt.ru/word/dimension)
 
-- `layer` *амер.* |ˈleɪər|, *брит.* |ˈleɪə| - **слой**, уровень, пласт / [звук](https://wooordhunt.ru/word/layer)
+- `layer` *амер.* |ˈleɪər|, *брит.* |ˈleɪə| - **слой**, уровень, пласт // [звук](https://wooordhunt.ru/word/layer)
 
-- `Stack` |stæk| - **стек**, стог, нагромождать / [звук](https://wooordhunt.ru/word/stack)
+- `Stack` |stæk| - **стек**, стог, нагромождать // [звук](https://wooordhunt.ru/word/stack)
 
-- `Nested` |ˈnestɪd| - **вложенный** / [звук](https://wooordhunt.ru/word/nested)
+- `Nested` |ˈnestɪd| - **вложенный** // [звук](https://wooordhunt.ru/word/nested)
 
-- `Deep` |diːp| - **глубокий** / [звук](https://wooordhunt.ru/word/deep)
+- `Deep` |diːp| - **глубокий** // [звук](https://wooordhunt.ru/word/deep)
   - `Deeper` |ˈdiːpə| - **глубже** / [звук](https://wooordhunt.ru/word/deeper)
   
 - `Efficient` |ɪˈfɪʃnt| - **эффективный**, действенный, рациональный / [звук](https://wooordhunt.ru/word/efficient)

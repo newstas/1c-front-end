@@ -350,7 +350,7 @@ $('#myModal').modal('hide')
 <div id="remove-dialog" class="modal fade" tabindex="-1">
 ```
 
-### Ккомпоненте Bootstrap Modal
+### Компонент Bootstrap Modal
 
 **Modal** – это компонент фреймворка Bootstrap, написанный с использованием 
 JavaScript и предназначенный для добавления на сайт диалоговых окон 

@@ -301,34 +301,6 @@ Delete   | 46 | 0x2E | VK_DELETE
 [Инструменты контроля форм - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/forms/)
 
 
-## Методы Модального окна
-
-### Показать Модальное окно `show`
-
-```js
-.modal('show')
-```
-
-Вручную открывает модальное окно:
-
-```js
-$('#myModal').modal('show')
-```
-
-### Спрятать Модельное окно `hide`
-
-```js
-.modal('hide')
-```
-
-Вручную скрывает модальное окно:
-
-```js
-$('#myModal').modal('hide')
-```
-
-[Методы. Модальное окно - Bootstrap 4](https://getbootstrap.ru/docs/v4-alpha/components/modal/#methods)
-
 
 ## Контекстуальные классы
 
@@ -429,6 +401,35 @@ Tab для перехода к элементу.
 использоваться всеми элементами, хотя на некоторые элементы могут не оказывать влияния.
 
 [Атрибут tabindex](https://webref.ru/html/attr/tabindex)
+
+
+## Методы Модального окна
+
+### Показать Модальное окно `show`
+
+```js
+.modal('show')
+```
+
+Вручную открывает модальное окно:
+
+```js
+$('#myModal').modal('show')
+```
+
+### Спрятать Модельное окно `hide`
+
+```js
+.modal('hide')
+```
+
+Вручную скрывает модальное окно:
+
+```js
+$('#myModal').modal('hide')
+```
+
+[Методы. Модальное окно - Bootstrap 4](https://getbootstrap.ru/docs/v4-alpha/components/modal/#methods)
 
 
 # CSS медиа-запросы (media queries)

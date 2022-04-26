@@ -341,7 +341,7 @@ Delete   | 46 | 0x2E | VK_DELETE
 [Контекстуальные классы - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/list-group/#contextual-classes)
 
 
-## «Модальная» часть `modal fade` и атрибут `tabindex`
+## Модальная» часть `modal fade` и атрибуты `tabindex` и `data-dismiss`
 
 ```html
 <div id="remove-dialog" class="modal fade" tabindex="-1">
@@ -418,6 +418,13 @@ Tab для перехода к элементу.
 использоваться всеми элементами, хотя на некоторые элементы могут не оказывать влияния.
 
 [Атрибут tabindex](https://webref.ru/html/attr/tabindex)
+
+
+### Атрибут `data-dismiss`
+
+Атрибут `data-dismiss="modal"` закрывает модальное окно, если вы нажмете на него
+
+[Модальное окно - w3schools](https://www.w3schools.com/bootstrap/bootstrap_modal.asp)
 
 
 ## Методы Модального окна

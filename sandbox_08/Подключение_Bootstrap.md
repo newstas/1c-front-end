@@ -31,7 +31,7 @@
 ```
 
 
-##Подключения Bootstrap 4 с помощью CDN:
+## Подключения Bootstrap 4 с помощью CDN:
 
 ```html
 <!doctype html>

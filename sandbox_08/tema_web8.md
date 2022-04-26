@@ -290,7 +290,7 @@ Delete   | 46 | 0x2E | VK_DELETE
 - `offset` - специальные классы `col-md(sm|lg)-offset-*` позволяют задать смещение относительно левого блока или начала строки в условных единицах
 
 
-## Инструменты контроля форм
+## Формы
 
 ```html
 <input type="text" id="field" class="form-control" placeholder="Что нужно сделать?">
@@ -298,8 +298,25 @@ Delete   | 46 | 0x2E | VK_DELETE
  
 - `form-control` - текстовые инструменты контроля – такие как `<input>`, `<select>` и `<textarea>` - стилизованы классом `.form-control`, который содержит основные стили внешнего вида, активного состояния, размерности и т.д.
 
-[Инструменты контроля форм - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/forms/)
+[Формы - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/forms/)
 
+
+## Группа списков
+
+Группы списков - это гибкий и мощный компонент для отображения контента. 
+Измените и расширьте их так, чтобы поддерживать практически любой контент 
+внутри.
+
+### Неупорядоченный список
+
+```html
+<ul class="list-group">
+  <li class="list-group-item">Верхний</li>
+  <li class="list-group-item">Нижний</li>
+</ul>
+```
+
+[Группа списков - Bootstrap 4](https://bootstrap-4.ru/docs/4.0/components/list-group/)
 
 
 ## Контекстуальные классы

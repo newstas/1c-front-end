@@ -5,7 +5,7 @@
 на CDN серверах.
 
 
-## Подключение Bootstrap 5:
+## Подключение Bootstrap 5 (CDN):
 
 ```html
 <!doctype html>
@@ -31,7 +31,7 @@
 ```
 
 
-## Подключения Bootstrap 4 с помощью CDN:
+## Подключения Bootstrap 4 (CDN):
 
 ```html
 <!doctype html>
@@ -58,7 +58,7 @@
 </html>
 ```
 
-## Подключение Bootstrap 3 к странице:
+## Подключение Bootstrap 3 (CDN):
 
 ```html
 <!doctype html>

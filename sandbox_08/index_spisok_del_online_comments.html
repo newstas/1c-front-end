@@ -78,13 +78,13 @@
             $("#remove-dialog").modal("hide"); // Метод который скрывает модальное окно
         };
 
-        $("#remove-dialog").on("keydown", function(event) {
-            if (event.which == 13) {
-                removeItems();
+        $("#remove-dialog").on("keydown", function(event) { // Функция подтверждения удаления элемента списка нажатием клавиши Enter
+            if (event.which == 13) { // Условие сравнивающее свойсво event.which с клавишей Enter
+                removeItems(); // Запуск функуции на исполнение
             }
         });
 
-        $("#remove-dialog__ok").on("click", removeItems);
+        $("#remove-dialog__ok").on("click", removeItems); // Функция подтверждения удаления элемента списка нажатием клавиши мыши
     </script>
 </body>
 

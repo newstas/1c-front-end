@@ -456,6 +456,16 @@ $('#myModal').modal('hide')
 [Методы. Модальное окно - Bootstrap 4](https://getbootstrap.ru/docs/v4-alpha/components/modal/#methods)
 
 
+## Свойство `event.which`
+
+Свойство which экземпляра объекта Event определяет, какая клавиша на клавиатуре 
+или кнопка мыши вызвала событие.
+
+*Возвращаемое значение: Строка, содержащая числовой код клавиши или кнопки*
+
+[event.which](https://api.jquery.com/event.which/)
+
+
 # CSS медиа-запросы (media queries)
 
 **Медиа-запросы (media queries)** – это правила CSS, которые позволяют управлять 

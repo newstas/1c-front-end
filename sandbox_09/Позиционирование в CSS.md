@@ -325,6 +325,7 @@ float'ы слева/справа/с обеих сторон.
 
 ## English
 
+- `Float` |fləʊt| - [плавать](https://wooordhunt.ru/word/float)
 
 - `Flow` |fləʊ| - [поток](https://wooordhunt.ru/word/flow), течение 
 

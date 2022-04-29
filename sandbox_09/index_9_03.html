@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>clear - свойство float без clear</title>
+    <title>clear - свойство float с clear</title>
     <style>
         .outer {
             border: 1px solid lightgrey;
@@ -33,6 +33,10 @@
             background-color: black;
         }
 
+        .inner--one {
+            clear: both;
+        }
+
     </style>
 </head>
 
@@ -42,9 +46,10 @@
         <div class="inner inner--green"></div>
         <div class="inner inner--blue"></div>
         <div class="inner inner--black"></div>
-        <p>За садом находился у них большой лес, который был совершенно посажен 
-            предприимчивым приказчиком, - может быть, оттого, что стук топора 
+        <p>За садом находился у них большой лес, который был совершенно посажен
+            предприимчивым приказчиком, - может быть, оттого, что стук топора
             доходил бы до самых ушей Пульхерии Ивановны.</p>
+        <div class="inner--one"></div>
     </div>
 </body>
 

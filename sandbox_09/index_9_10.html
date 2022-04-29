@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Свойство position</title>
-        <style>
-            .outer {
-                border: 1px solid lightblue;
-                border-radius: lightgrey;
-                height: 2000px;
-            }
-                
-            .inner {
-                display: inline-block;
-                width: 100px;
-                height: 100px;
-            }
-            
-            .inner--red { background-color: red;}
-            .inner--green { background-color: green; }
-            
-            .inner.inner--green {
-                position: relative;
-                left: -50px;
-                top: 50px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="outer">
-            <div class="inner inner--red">
-            </div><div class="inner inner--green">
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <title>L9.10 Шаблон для изучения свойства z-index</title>
+    <style>
+        .outer {
+            border: 1px solid lightblue;
+            border-radius: lightgrey;
+            height: 2000px;
+        }
+
+        .inner {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+        }
+
+        .inner--red {
+            background-color: red;
+        }
+
+        .inner--green {
+            background-color: green;
+        }
+
+        .inner.inner--green {
+            position: relative;
+            left: -50px;
+            top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <!-- Зеленый блок ближе к нам, так как объявлен позже в коде -->
+        <div class="inner inner--red">
+        </div><div class="inner inner--green">
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

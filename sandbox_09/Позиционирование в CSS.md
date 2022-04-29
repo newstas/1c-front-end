@@ -4,7 +4,7 @@
 - Что такое **нормальный поток** (normal flow)
 - Свойство CSS `float`
 - Свойство CSS `clear` (очистка `float`)
-- Свойсво CSS `position` в значениях - `relative`, `absolute` и `fixed`
+- Свойство CSS `position` в значениях - `relative`, `absolute` и `fixed`
 
 
 ## `Breaking the flow` (Нарушение потока)

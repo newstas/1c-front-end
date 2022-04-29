@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>clear - свойство float с clear</title>
+    <style>
+        .outer {
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+        }
+
+        .inner {
+            float: left;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .inner--one {
+            clear: both;
+        }
+
+        .inner--red {
+            background-color: red;
+        }
+
+        .inner--green {
+            background-color: green;
+        }
+
+        .inner--blue {
+            background-color: blue;
+        }
+
+        .inner--black {
+            background-color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner inner--red"></div>
+        <div class="inner inner--green"></div>
+        <div class="inner inner--blue"></div>
+        <div class="inner inner--black"></div>
+        <p>За садом находился у них большой лес, который был совершенно посажен
+            предприимчивым приказчиком, - может быть, оттого, что стук топора
+            доходил бы до самых ушей Пульхерии Ивановны.</p>
+        <div class="inner--one"></div>
+    </div>
+</body>
+
+</html>

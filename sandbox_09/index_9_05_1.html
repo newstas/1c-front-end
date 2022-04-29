@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Свойство position - без переноса /div</title>
+    <title>Свойство position</title>
     <style>
         .outer {
             border: 1px solid lightblue;
@@ -24,15 +24,16 @@
         .inner--green {
             background-color: green;
         }
-
     </style>
 </head>
 
 <body>
     <div class="outer">
-        <div class="inner inner--red"></div>
-        <div class="inner inner--green"></div>
+        <!-- TODO Закрывающий и открывющий теги </div><div> написаны раздельно -->
+        <div class="inner inner--red">
+        </div>
+        <div class="inner inner--green">
+        </div>
     </div>
-</body>
+</body></html>
 
-</html>

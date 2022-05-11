@@ -475,6 +475,6 @@ https://html5css.ru/css/css3_transitions.php
 3. Затем на внешнем `<form>`
 4. И так далее вверх по цепочке до самого `document`
 
-Поэтому если кликнуть на <p>, то мы увидим три оповещения: `p → div → form`.
+Поэтому если кликнуть на `<p>`, то мы увидим три оповещения: `p → div → form`.
 
 [Всплытие и погружение](https://learn.javascript.ru/bubbling-and-capturing)

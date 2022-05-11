@@ -306,7 +306,7 @@ https://html5book.ru/css3-transition/
 https://html5css.ru/css/css3_transitions.php
 
 
-##9. Разметка в Bootstrap. 
+## 9. Разметка в Bootstrap. 
 
 Занятие 8
 

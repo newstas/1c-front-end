@@ -134,23 +134,23 @@ div:hover {
 
 Отступы:
 
-padding-top: значение;
+- `padding-top: значение;`
 
-padding-right: значение;
+- `padding-right: значение;`
 
-padding-bottom: значение;
+- `padding-bottom: значение;`
 
-padding-left: значение;
+- `padding-left: значение;`
 
 Поля:
 
-margin-top: значение;
+- `margin-top: значение;`
 
-margin-right: значение;
+- `margin-right: значение;`
 
-margin-bottom: значение;
+- `margin-bottom: значение;`
 
-margin-left: значение;
+- `margin-left: значение;`
 
 
 ### Схлопывание margin

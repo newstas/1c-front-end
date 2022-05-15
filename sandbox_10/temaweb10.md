@@ -258,7 +258,8 @@ a {
 }
 ```
 
-[Каскадирование в CSS](https://it-black.ru/kaskadirovanie-v-css/)
+[Каскадирование в CSS](https://it-black.ru/kaskadirovanie-v-css/) 
+[Каскад и наследование - mdn](https://developer.mozilla.org/ru/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 
 
 ## 6. Свойство box-sizing.

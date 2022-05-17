@@ -58,7 +58,8 @@
     </div>
 
     <script>
-        var tiles = []; // Добавляем массив, иначе функция createTiles() не сработает
+        // TODO добавляем массив, иначе функция createTiles() не сработает
+        var tiles = [];
 
         function createCellNull() {
             var cell = document.createElement("div");
@@ -108,13 +109,14 @@
                         cell.innerHTML = n;
                         setCellOffset(cell);
                         appendCell(cell);
-                        /* добавляет костяшку в массив */
+                        // TODO добавляет костяшку в массив 
                         tiles.push(cell);
                     }
                 }
             }
         }
 
+        // TODO
         function animateTiles() {
             var i;
             for (i = 0; i < tiles.length; ++i) {

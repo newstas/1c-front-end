@@ -37,7 +37,7 @@
             background-color: #764B8E;
         }
         
-        /* TODO */
+        /* TODO класс для игровых ячеек (костяшек) */
         .field__cell--tile {
             background-color: #3D1255;
             color: white;
@@ -88,14 +88,14 @@
             }
         }
 
-        // TODO
+        // TODO функция создающая новый див с необходимыми классами
         function createCellTile() {
             var cell = document.createElement("div");
             cell.classList.add("field__cell", "field__cell--tile");
             return cell;
         }
 
-        // TODO
+        // TODO функция создающая костящки
         function createTiles() {
             var x, y, cell, n;
             for (y = 0; y < 4; ++y) {
@@ -115,7 +115,7 @@
         }
 
         createField();
-        // TODO
+        // TODO вызов функции
         createTiles();
     </script>
 

@@ -1,14 +1,4 @@
-field |fiːld| - [поле](https://wooordhunt.ru/word/field)
 
-cell |sel| - [ячейка](https://wooordhunt.ru/word/cell)
-
-taɪl |taɪl| - плитка [косточка](https://wooordhunt.ru/word/tile)
-
-offset |ˈɔːfset| - смещённый, [выравнивать](https://wooordhunt.ru/word/offset)
-
-length |leŋθ| - [длина](https://wooordhunt.ru/word/length)
-
-between |bɪˈtwiːn| - [между](https://wooordhunt.ru/word/between)
 
 
 ## createElement()
@@ -95,3 +85,19 @@ tiles.push(cell);
 ```
 
 Чтобы добавить элементы в начало массива, используйте метод `unshift()`
+
+
+***
+
+
+field |fiːld| - [поле](https://wooordhunt.ru/word/field)
+
+cell |sel| - [ячейка](https://wooordhunt.ru/word/cell)
+
+taɪl |taɪl| - плитка [косточка](https://wooordhunt.ru/word/tile)
+
+offset |ˈɔːfset| - смещённый, [выравнивать](https://wooordhunt.ru/word/offset)
+
+length |leŋθ| - [длина](https://wooordhunt.ru/word/length)
+
+between |bɪˈtwiːn| - [между](https://wooordhunt.ru/word/between)

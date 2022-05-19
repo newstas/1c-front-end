@@ -42,15 +42,14 @@
             color: white;
             font-size: 42px;
             font-weight: bold;
-
-            /* центрирование числа на костяшке */
             display: flex;
             justify-content: center;
             align-items: center;
-            
+
             /* TODO добавляем эффект плавного перемещения костящек */
             transition: left 0.5s ease, top 0.5s ease;
         }
+
     </style>
 
 </head>
@@ -62,7 +61,6 @@
 
     <script>
         var tiles = [];
-        /* Создаем глобальный массив freeCell с координатами свободной ячейки */
         var freeCell = {
             y: 3,
             x: 3
@@ -108,7 +106,6 @@
             for (y = 0; y < 4; ++y) {
                 for (x = 0; x < 4; ++x) {
                     n = y * 4 + x + 1;
-                    /* всего костяшек должно быть 15 */
                     if (n < 16) {
                         cell = createCellTile();
                         cell.y = y;
@@ -116,7 +113,6 @@
                         cell.innerHTML = n;
                         setCellOffset(cell);
                         appendCell(cell);
-                        /* добавляет костяшку в массив */
                         tiles.push(cell);
                     }
                 }
@@ -130,14 +126,13 @@
             }
         }
 
-        function between(a, b, t) { // принимает аргументы a, b  и t. Возвращает true, если t находится между a и b, а иначе false
+        function between(a, b, t) {
             return a <= t && t <= b || b <= t && t <= a;
         }
 
-        function tileClick(event) { // функция обратного вызова tileClick, исопльзуящая between и т. д. и принимающая аргумент event
-            var bar = event.target, // нажатая игровая ячейка (event.target), которая сохраняется в переменную bar ниже
+        function tileClick(event) {
+            var bar = event.target,
                 i, tile;
-            /* запоминаем старые координаты каждой ячейки */
             var oldX = bar.x,
                 oldY = bar.y;
             if (bar.y == freeCell.y) {
@@ -149,7 +144,7 @@
                         setCellOffset(tile);
                     }
                 }
-                freeCell = { // создаем глобальный объект freeCell со свойствами y и x, обозначающие позицию свободной ячейки
+                freeCell = {
                     y: oldY,
                     x: oldX
                 };
@@ -172,6 +167,7 @@
         createField();
         createTiles();
         animateTiles();
+
     </script>
 
 </body>

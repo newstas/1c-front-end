@@ -24,8 +24,7 @@
             height: 400px;
             background-color: #9775AA;
             border-radius: 5px;
-            /* для позиционирования ячеек 
-    отностильно игрового поля*/
+            /* для позиционирования ячеек отностильно игрового поля*/
             position: relative;
         }
 
@@ -40,54 +39,50 @@
             background-color: #764B8E;
         }
 
+        /* Класс для игровых ячеек (костяшек) */
         .field__cell--tile {
             background-color: #3D1255;
             color: white;
             font-size: 42px;
             font-weight: bold;
-
             /* центрирование числа на костяшке */
             display: flex;
             justify-content: center;
             align-items: center;
-
+            /* добавляем эффект плавного перемещения костящек */
             transition: left 0.5s ease, top 0.5s ease;
         }
 
+        /* Стили для вывода записи Победа */
         #modal {
-            /* размеры ранвые размеру родителя,
-    то есть игрового поля */
+            /* размеры ранвые размеру родителя, то есть игрового поля */
             height: 100%;
             width: 100%;
             /* неследование радиуса границ */
             border-radius: inherit;
-
             /* невидимость */
             visibility: hidden;
             opacity: 0;
-
             transition: opacity 1s ease;
-
             /* вывод блока на передний план */
             position: relative;
             z-index: 1;
-
             /* центрирование сообщения */
             display: flex;
             align-items: center;
             justify-content: center;
-
             /* цвета и размер шрифта */
             background: rgba(0, 0, 0, 0.5);
             color: white;
-
             font-size: 72px;
         }
 
+        /* Стили для вывода записи Победа */
         #modal.modal--visible {
             visibility: visible;
             opacity: 1;
         }
+
     </style>
 </head>
 
@@ -96,13 +91,15 @@
         <div class="modal" id="modal">Победа!</div>
     </div>
     <script>
+        /* Глобальный массив костяшек */
         var tiles = [];
+        /* Глобальный массив freeCell с координатами свободной ячейки */
         var freeCell = {
             y: 3,
             x: 3
         };
-        /* для избежания проверки на собранность
-         во время перемешивания */
+        /* Переменная для проверки на собранность, false служит для 
+        избежания проверки на собранность во время перемешивания */
         var shuffled = false;
 
         function createCellNull() {
@@ -135,12 +132,14 @@
             }
         }
 
+        /* Функция создающая новый div с необходимыми классами */
         function createCellTile() {
             var cell = document.createElement("div");
             cell.classList.add("field__cell", "field__cell--tile");
             return cell;
         }
-
+        
+        /* Функция создающая костящки */
         function createTiles() {
             var x, y, cell, n;
             for (y = 0; y < 4; ++y) {
@@ -161,6 +160,8 @@
             }
         }
 
+        /* ФункциЯ, которая принимает аргументы a, b  и t. Возвращает 
+        true, если t находится между a и b, а иначе false */
         function between(a, b, t) {
             return a <= t && t <= b || b <= t && t <= a;
         }
@@ -175,7 +176,10 @@
             document.getElementById("modal").classList.add("modal--visible");
         }
 
+        /* Функцию обратного вызова tileClick, исопльзуящая 
+        between и т. д. и принимающая аргумент event */
         function tileClick(event) {
+            /* нажатая игровая ячейка (event.target), которая сохраняется в переменную bar ниже */
             var bar = event.target,
                 i, tile;
             /* запоминаем старые координаты каждой ячейки */
@@ -190,6 +194,8 @@
                         setCellOffset(tile);
                     }
                 }
+                /* создаем глобальный объект freeCell со свойствами y и x, 
+                обозначающие позицию свободной ячейки */
                 freeCell = {
                     y: oldY,
                     x: oldX
@@ -208,13 +214,14 @@
                     x: oldX
                 };
             }
-            /* если перемешание закончилось,
-             проверяем, собрана ли головоломка */
+            /* если перемешание закончилось, проверяем, собрана ли головоломка */
             if (shuffled) {
                 checkVictory();
             }
         }
 
+        /* Функция добавляет пустой обработчик собыитя click с именем 
+        tileClick ко всем элементам из массива tiles */
         function animateTiles() {
             var i;
             for (i = 0; i < tiles.length; ++i) {
@@ -222,6 +229,7 @@
             }
         }
 
+        /* Функция перемешивания костяшек */
         function shuffleTiles() {
             var i, index;
             for (i = 0; i < 1000; ++i) {
@@ -235,6 +243,7 @@
         createTiles();
         animateTiles();
         shuffleTiles();
+
     </script>
 </body>
 

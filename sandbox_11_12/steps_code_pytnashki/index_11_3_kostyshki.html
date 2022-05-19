@@ -36,7 +36,7 @@
         .field__cell--null {
             background-color: #764B8E;
         }
-        
+
         /* TODO класс для игровых ячеек (костяшек) */
         .field__cell--tile {
             background-color: #3D1255;
@@ -49,6 +49,7 @@
             justify-content: center;
             align-items: center;
         }
+
     </style>
 
 </head>
@@ -58,7 +59,7 @@
 
     </div>
 
-    <script>  
+    <script>
         function createCellNull() {
             var cell = document.createElement("div");
             cell.classList.add("field__cell", "field__cell--null");
@@ -88,14 +89,14 @@
             }
         }
 
-        // TODO функция создающая новый див с необходимыми классами
+        // TODO добаыляем функцию создающую новый div с необходимыми классами
         function createCellTile() {
             var cell = document.createElement("div");
             cell.classList.add("field__cell", "field__cell--tile");
             return cell;
         }
 
-        // TODO функция создающая костящки
+        /* TODO добавляем функцию создающую костящки */
         function createTiles() {
             var x, y, cell, n;
             for (y = 0; y < 4; ++y) {
@@ -115,8 +116,10 @@
         }
 
         createField();
-        // TODO вызов функции
+
+        /* TODO дабавляем вызов функции */
         createTiles();
+
     </script>
 
 </body>

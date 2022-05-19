@@ -87,6 +87,23 @@ tiles.push(cell);
 Чтобы добавить элементы в начало массива, используйте метод `unshift()`
 
 
+## Math.floor()
+
+Метод `Math.floor()` - округление вниз. Округляет аргумент до ближайшего меньшего 
+целого `Math.floor(x)`
+
+```java
+index = Math.floor(Math.random() * tiles.length);
+```
+
+
+## Math.random() 
+
+Метод `Math.random()` возвращает псевдослучайное число с плавающей запятой 
+из диапазона [0, 1), то есть, от 0 (включительно) до 1 (но не включая 1), 
+которое затем можно отмасштабировать до нужного диапазона.
+
+
 ***
 
 
@@ -101,3 +118,7 @@ offset |ˈɔːfset| - смещённый, [выравнивать](https://wooor
 length |leŋθ| - [длина](https://wooordhunt.ru/word/length)
 
 between |bɪˈtwiːn| - [между](https://wooordhunt.ru/word/between)
+
+floor |flɔː| - пол, [дно](https://wooordhunt.ru/word/floor)
+
+shuffle |ˈʃʌfl| - перебирание, перетасовка, [шарканье](https://wooordhunt.ru/word/shuffle)

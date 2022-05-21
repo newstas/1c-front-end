@@ -3,7 +3,7 @@
 
 ## createElement()
 
-document.createElement(tag) - создаёт новый элемент с заданным тегом:
+`document.createElement(tag)` - **создаёт новый элемент с заданным тегом**:
 
 ```js
 cell.classList.add("field__cell", "field__cell--null");

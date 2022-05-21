@@ -17,7 +17,7 @@ cell.classList.add("field__cell", "field__cell--null");
 
 ## classList.add
 
-`classList.add` - метод add объекта classList позволяет добавлять CSS классы элементу - 
+`classList.add` - метод add объекта classList позволяет **добавлять CSS-классы к элементу** - 
 `элемент.classList.add(класс);`
 
 ```js

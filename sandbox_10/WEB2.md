@@ -95,7 +95,7 @@ Flexbox позволяет удобно управлять дочерними и
 [w3schools](https://www.w3schools.com/css/css_inline-block.asp#:~:text=The%20display%3A%20inline%2Dblock%20Value,display%3A%20inline%20they%20are%20not)
 
 
-## Свойство `content` вместе с `::after` и `::before`
+## Свойство `content` с `::after` и `::before`
 
 Свойство `content` позволяет **вставлять генерируемое содержание** в текст 
 веб-страницы, которое первоначально в тексте отсутствует. 

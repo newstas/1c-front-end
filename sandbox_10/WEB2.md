@@ -240,10 +240,10 @@ background: no-repeat center/80% url("../img/image.png");
 Свойство `text-align` применяется к самому **блоку-контейнеру flexbox**, 
 внутри которого находится текстовый контен
 
-font-family: 'bignoodletitling';
-font-size: 2rem;
-font-weight: normal;
-font-style: normal;
+- `font-family: 'bignoodletitling';`
+- `font-size: 2rem;`
+- `font-weight: normal;`
+- `font-style: normal;`
 
 
 `font-style` - **начертание шрифта — обычное, курсивное или наклонное**. 

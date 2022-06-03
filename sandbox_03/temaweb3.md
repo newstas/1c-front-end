@@ -180,7 +180,7 @@ flex-direction: row;
 [![flex-align-content-e1390778353494.png](https://i.postimg.cc/QCY9cZfk/flex-align-content-e1390778353494.png)](https://postimg.cc/jnNSrm0L)
 
 
-# 2D-преобразования CSS
+# Трансформации (2D-преобразования CSS)
 
 Преобразования CSS позволяют перемещать, вращать, масштабировать и наклонять элементы.
 

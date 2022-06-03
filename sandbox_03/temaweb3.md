@@ -67,14 +67,11 @@
 
 ### flex-direction – направление главной оси
 
-Главная ось определяется свойством **flex-direction**, которая может принимать одно из следующих значений:
+Свойство `flex-direction` задаёт направление основных осей в контейнере и тем самым
+определяет положение флексов в контейнере. На само направление также влияет 
+значение атрибута dir у контейнера.
 
-- `row`
-- `row-reverse`
-- `column`
-- `column-reverse`
-
-Доступные значения flex-direction:
+Значения свойства `flex-direction`:
 
 - `row` (значение по умолчанию) : слева направо (в rtl справа налево)
 - `row-reverse`: справа налево (в rtl слева направо)
@@ -82,9 +79,8 @@
 - `column-reverse`: снизу вверх
 
 ```css
-.container {
-  flex-direction: row | row-reverse | column | column-reverse;
-}
+display: flex;
+flex-direction: row;
 ```
 
 Если вы выберете `row` или `row-reverse`, ваша главная ось будет проходить в горизонтальном направлении (`inline direction`).

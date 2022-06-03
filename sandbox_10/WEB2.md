@@ -209,7 +209,7 @@ background: no-repeat center/80% url("../img/image.png");
 ***
 
 
-3 шаг
+# 3 шаг
 
 # Свойство `text-transform`
 

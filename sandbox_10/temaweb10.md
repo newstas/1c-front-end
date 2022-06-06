@@ -272,9 +272,15 @@ a {
 }
 ```
 
+Специфичность - это **способ**, с помощью которого** браузеры определяют, какие значения 
+свойств CSS наиболее соответствуют элементу** и, следовательно, будут применены. 
+Специфичность основана на **правилах соответствия, состоящих из селекторов CSS различных типов**.
+
 [Каскадирование в CSS](https://it-black.ru/kaskadirovanie-v-css/) 
 
 [Каскад и наследование - mdn](https://developer.mozilla.org/ru/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+
+[Специфичность - mdn](https://developer.mozilla.org/ru/docs/Web/CSS/Specificity)
 
 
 ## 6. Свойство box-sizing.

@@ -1,8 +1,16 @@
 
 # 1 шаг
 
-# Свойство `display`
+# Автоматическое форматирование кода в Visual Studio Code 
 
+выполняется следующими комбинациями:
+
+- Windows: **Shift + Alt + F**
+- Mac: **Shift ⇧ + Option ⌥ + F**
+- Ubuntu: **Ctrl + Shift + I**
+
+
+# Свойство `display`
 
 Свойство `display` имеет много разных значений. Обычно, используются: 
 `none`, `inline`, `block`, `inline-block` и `flex` 

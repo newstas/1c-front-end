@@ -366,7 +366,7 @@ CSS-свойство `opacity` устанавливает непрозрачно
 
 - `flex` |fleks| - сгибать, гнуть, [гибкий](https://wooordhunt.ru/word/flex)
 
-- `justify` - оправдывать, объяснять, подтверждать, [выравнивать](https://wooordhunt.ru/word/justify)
+- `justify` |ˈdʒʌstɪfaɪ| - оправдывать, объяснять, подтверждать, [выравнивать](https://wooordhunt.ru/word/justify)
 
 - `align` |əˈlaɪn| - выровнять, [выравнивать](https://wooordhunt.ru/word/align)
 

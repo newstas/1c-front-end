@@ -364,7 +364,11 @@ CSS-свойство `opacity` устанавливает непрозрачно
 
 - cross |krɒs| - [поперечный](https://wooordhunt.ru/word/cross)
 
+- `flex layout` |fleks ˈleɪaʊt| - гибкий макет
+
 - `flex` |fleks| - сгибать, гнуть, [гибкий](https://wooordhunt.ru/word/flex)
+
+- `layout` |ˈleɪaʊt| - расположение, [макет](https://wooordhunt.ru/word/layout)
 
 - `justify` |ˈdʒʌstɪfaɪ| - оправдывать, объяснять, подтверждать, [выравнивать](https://wooordhunt.ru/word/justify)
 

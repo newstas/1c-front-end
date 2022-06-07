@@ -418,7 +418,7 @@ CSS-свойство `opacity` устанавливает непрозрачно
 
 - `matrix` |ˈmeɪtrɪks| - матрица, [форма](https://wooordhunt.ru/word/matrix)
 
--`opacity` |əʊˈpæsətɪ| - непрозрачность, помутнение, [затененность](https://wooordhunt.ru/word/opacity)
+- `opacity` |əʊˈpæsətɪ| - непрозрачность, помутнение, [затененность](https://wooordhunt.ru/word/opacity)
 
 
 ***

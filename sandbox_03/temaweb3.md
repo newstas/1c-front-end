@@ -358,13 +358,17 @@ CSS-свойство `opacity` устанавливает непрозрачно
 ***
 
 
-- axis |ˈæksɪs| - [ось](https://wooordhunt.ru/word/axis)
+- `main axis` |meɪn ˈæksɪs| - **главная ось**
 
-- main |meɪn| - [главный](https://wooordhunt.ru/word/main)
+- `main` |meɪn| - основной, [главный](https://wooordhunt.ru/word/main)
 
-- cross |krɒs| - [поперечный](https://wooordhunt.ru/word/cross)
+- `axis` |ˈæksɪs| - ось](https://wooordhunt.ru/word/axis)
 
-- `flex layout` |fleks ˈleɪaʊt| - гибкий макет
+- `cross axis` |krɒs ˈæksɪs| - **поперечная ось**
+
+- `cross` |krɒs| - крест, кросс, крестик, [поперечный](https://wooordhunt.ru/word/cross)
+
+- `flex layout` |fleks ˈleɪaʊt| - **гибкий макет**
 
 - `flex` |fleks| - сгибать, гнуть, [гибкий](https://wooordhunt.ru/word/flex)
 
@@ -413,6 +417,8 @@ CSS-свойство `opacity` устанавливает непрозрачно
 - `skew` |skjuː| - косой, смещенный, [наклон](https://wooordhunt.ru/word/skew)
 
 - `matrix` |ˈmeɪtrɪks| - матрица, [форма](https://wooordhunt.ru/word/matrix)
+
+-`opacity` |əʊˈpæsətɪ| - непрозрачность, помутнение, [затененность](https://wooordhunt.ru/word/opacity)
 
 
 ***

@@ -364,6 +364,42 @@ CSS-свойство `opacity` устанавливает непрозрачно
 
 - cross |krɒs| - [поперечный](https://wooordhunt.ru/word/cross)
 
+- `flex` |fleks| - сгибать, гнуть, [гибкий](https://wooordhunt.ru/word/flex)
+
+- `justify` - оправдывать, объяснять, подтверждать, [выравнивать](https://wooordhunt.ru/word/justify)
+
+- `align` |əˈlaɪn| - выровнять, [выравнивать](https://wooordhunt.ru/word/align)
+
+- `item` |ˈaɪtəm| - пункт, вопрос, статья, номер, [элемент](https://wooordhunt.ru/word/item)
+
+- `wrap` |ræp| - обертка, одеяло, упаковывать, обертывать, [заворачивать](https://wooordhunt.ru/word/wrap)
+
+- `wrapper` |ˈræpər| обертка, бандероль, халат, суперобложка, [капот](https://wooordhunt.ru/word/wrapper)
+
+- `between` |bɪˈtwiːn| - [между](https://wooordhunt.ru/word/between)
+
+- `around` |əˈraʊnd| - вокруг, [около](https://wooordhunt.ru/word/around)
+
+- `stretch` |stretʃ| - растягивать, [растягиваться](https://wooordhunt.ru/word/stretch)
+
+- `evenly` |ˈiːvnlɪ| - равномерно, ровно, поровну, [одинаково](https://wooordhunt.ru/word/evenly)
+
+- `offset` |ˈɔːfset| - смещенный, смещение, компенсация, [компенсировать](https://wooordhunt.ru/word/offset)
+
+- `initial` |ɪˈnɪʃl| - начальный, инициал, начальная буква (заглавная буква), [первоначальный](https://wooordhunt.ru/word/initial)
+
+-`inline` - линейный, встроенный, рядный, в [линию](https://wooordhunt.ru/word/in-line)
+
+- `translate` |trænsˈleɪt| - переводить, транслировать, переносить, [перемещать](https://wooordhunt.ru/word/translate)
+
+- `rotate` |ˈrəʊteɪt| - вращать, [вращаться](https://wooordhunt.ru/word/rotate)
+
+- `scale` |skeɪl| - масштаб, шкала, [размер](https://wooordhunt.ru/word/scale)
+
+- `skew` |skjuː| - косой, смещенный, [наклон](https://wooordhunt.ru/word/skew)
+
+- `matrix` |ˈmeɪtrɪks| - матрица, [форма](https://wooordhunt.ru/word/matrix)
+
 
 ***
 Ресурсы:

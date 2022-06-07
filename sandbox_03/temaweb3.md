@@ -388,7 +388,7 @@ CSS-свойство `opacity` устанавливает непрозрачно
 
 - `initial` |ɪˈnɪʃl| - начальный, инициал, начальная буква (заглавная буква), [первоначальный](https://wooordhunt.ru/word/initial)
 
--`inline` - линейный, встроенный, рядный, в [линию](https://wooordhunt.ru/word/in-line)
+- `inline` - линейный, встроенный, рядный, в [линию](https://wooordhunt.ru/word/in-line)
 
 - `translate` |trænsˈleɪt| - переводить, транслировать, переносить, [перемещать](https://wooordhunt.ru/word/translate)
 

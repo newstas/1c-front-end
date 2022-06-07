@@ -382,6 +382,16 @@ CSS-свойство `opacity` устанавливает непрозрачно
 
 - `stretch` |stretʃ| - растягивать, [растягиваться](https://wooordhunt.ru/word/stretch)
 
+- `shrink` |ʃrɪŋk| - сокращать, сокращаться, [сжиматься](https://wooordhunt.ru/word/shrink)
+
+- `grow` |ɡrəʊ| - расти, выращивать, [увеличиваться](https://wooordhunt.ru/word/grow)
+
+- `basis` |ˈbeɪsɪs| - основа, основание, база, [базис](https://wooordhunt.ru/word/basis)
+
+- `self` |self| - себя, [сам](https://wooordhunt.ru/word/self)
+
+- `order` |ˈɔːrdər| - заказ, порядок, приказ, [распоряжение](https://wooordhunt.ru/word/order)
+
 - `evenly` |ˈiːvnlɪ| - равномерно, ровно, поровну, [одинаково](https://wooordhunt.ru/word/evenly)
 
 - `offset` |ˈɔːfset| - смещенный, смещение, компенсация, [компенсировать](https://wooordhunt.ru/word/offset)

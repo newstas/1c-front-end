@@ -285,4 +285,4 @@ background: no-repeat center/80% url("../img/image.png");
 
 - weight |weɪt| - вес, [масса](https://wooordhunt.ru/word/weight)
 
-- width |wɪdθ| - ширина, расстояние, [широта](https://wooordhunt.ru/word/width)
+- width |wɪtθ| - ширина, расстояние, [широта](https://wooordhunt.ru/word/width)

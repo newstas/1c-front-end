@@ -273,9 +273,15 @@ background: no-repeat center/80% url("../img/image.png");
 ***
 
 
-# Шаг 5
+# Шаг 6
+
+[Как сделать - отображения ваших навыков](https://html5css.ru/howto/howto_css_skill_bar.php)
 
 
+***
+
+
+## EN
 
 - oblique |əˈbliːk| - [наклонный](https://wooordhunt.ru/word/oblique)
 

@@ -53,15 +53,16 @@ line break |laɪn breɪk| - разрыв строки [HHDR](https://hhrd.ru/htm
 [модель](https://wooordhunt.ru/word/model) [документа](https://wooordhunt.ru/word/document) 
 [HHDR](https://hhrd.ru/html/145)
 
-hypertext reference |ˈhʌɪpətɛkst ˈrɛf(ə)r(ə)ns| - [гипертекстовая](https://wooordhunt.ru/word/hypertext) 
+- hypertext reference |ˈhʌɪpətɛkst ˈrɛf(ə)r(ə)ns| - [гипертекстовая](https://wooordhunt.ru/word/hypertext) 
 [ссылка](https://wooordhunt.ru/word/reference)
 
-Scheme |skiːm| - [схема](https://wooordhunt.ru/word/scheme), система, план, программа - функциональный 
+- Scheme |skiːm| - [схема](https://wooordhunt.ru/word/scheme), система, план, программа - функциональный 
 язык программирования, один из диалектов Лисп
 
 - SQL Имеет два варианта произношения:
 1. SQL |si:kwəl|
 2. SQL |es kju: el|
+
 SQL - (structured query language — «язык структурированных запросов») — декларативный язык 
 программирования, применяемый для создания, модификации и управления данными в реляционной 
 базе данных, управляемой соответствующей системой управления базами данных. 
@@ -77,7 +78,7 @@ SQL - (structured query language — «язык структурированны
 - IDE |aɪd| - Integrated development environment - Интегрированная среда разработки 
 [HHDR](https://hhrd.ru/ide/index)
 
-WYSIWYG editor - [ˈwɪz.i.wɪɡ ˈɛdɪtə] - редактор WYSIWYG [HHDR](https://hhrd.ru/ide/index)
+- WYSIWYG editor - [ˈwɪz.i.wɪɡ ˈɛdɪtə] - редактор WYSIWYG [HHDR](https://hhrd.ru/ide/index)
 
 - PyCharm |paɪtʃɑːm| - среда разработки, поддерживаемые языки: AngularJS, Coffee Script, CSS, Cython, 
 HTML, JavaScript, Node.js, Python, TypeScript [HHDR](https://hhrd.ru/ide/151)

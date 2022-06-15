@@ -547,3 +547,19 @@ https://html5css.ru/css/css3_transitions.php
 Поэтому если кликнуть на `<p>`, то мы увидим три оповещения: `p → div → form`.
 
 [Всплытие и погружение](https://learn.javascript.ru/bubbling-and-capturing)
+
+
+***
+
+
+## EN
+
+- query |ˈkwɪrɪ| - [запрос](https://wooordhunt.ru/word/query)
+
+- queries |ˈkwɪrɪz| - [запросы](https://wooordhunt.ru/word/queries)
+
+- response |rɪˈspɑːns| - [ответ](https://wooordhunt.ru/word/response)
+
+- question |ˈkwestʃən| - [вопрос](https://wooordhunt.ru/word/question)
+
+- especially |ɪˈspeʃəlɪ| - особенно, [специально](https://wooordhunt.ru/word/especially)

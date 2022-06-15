@@ -99,4 +99,4 @@ CoffeeScript, HTML, JavaScript, LESS, Node JS, PHP, Python, Ruby, Sass, TypeScri
 
 
 
-
+[Какие английские слова IT-лексикона мы неправильно произносим чаще всего](https://habr.com/ru/company/epam_systems/blog/483384/)

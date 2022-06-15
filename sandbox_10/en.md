@@ -85,7 +85,8 @@ HTML, JavaScript, Node.js, Python, TypeScript [HHDR](https://hhrd.ru/ide/151)
 
 - IntelliJ IDEA |ɪnˈtɛlɪʤeɪaɪˈdɪə| - интегрированная среда разработки программного обеспечения 
 для многих языков программирования, поддерживаемые языки программирования: AngularJS, 
-CoffeeScript, HTML, JavaScript, LESS, Node JS, PHP, Python, Ruby, Sass, TypeScript и другие.
+CoffeeScript, HTML, JavaScript, LESS, Node JS, PHP, Python, Ruby, Sass, TypeScript и другие 
+[HHDR](https://hhrd.ru/ide/151)
 
 - Notepad++ |ˈnəʊtpad plʌs plʌs| - свободный текстовый редактор с открытым исходным кодом 
 для Windows, написан на C++. Базовая функциональность программы может быть расширена как 

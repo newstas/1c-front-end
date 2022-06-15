@@ -97,10 +97,10 @@ CoffeeScript, HTML, JavaScript, LESS, Node JS, PHP, Python, Ruby, Sass, TypeScri
 кросс-платформенный редактор с открытым исходным кодом, разработанный и выпущенный 
 компанией Adobe [HHDR](https://hhrd.ru/ide/149)
 
-Visual Studio Code |ˈvɪʒ(j)ʊəl ˈstjuːdɪəʊ kəʊd|- бесплатный кросс-платформенный 
+- Visual Studio Code |ˈvɪʒ(j)ʊəl ˈstjuːdɪəʊ kəʊd|- бесплатный кросс-платформенный 
 редактор кода, разработанный Microsoft [HHDR](https://hhrd.ru/ide/149)
 
-Microsoft Visual Studio |ˈmaɪkrəsɒft ˈvɪʒ(j)ʊəl ˈstjuːdɪəʊ| - интегрированная среда разработки 
+- Microsoft Visual Studio |ˈmaɪkrəsɒft ˈvɪʒ(j)ʊəl ˈstjuːdɪəʊ| - интегрированная среда разработки 
 [HHDR](https://hhrd.ru/ide/149)
 
 

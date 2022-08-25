@@ -29,15 +29,16 @@
             position: relative;
         }
         
-        /* 
+        /* Стили испльзуемые как для фоновых, так и для игровых ячеек */
         .field__cell {
             width: 81.25px;
             height: 81.25px;
-            /* 
+            /* устанавливаем абсалютное позиционирование относительно игрового поля */
             position: absolute;
             border-radius: 3px;
         }
-
+        
+        /* Устанавливаем цвет фонофой ячейки */
         .field__cell--null {
             background-color: #764B8E;
         }
@@ -96,11 +97,13 @@
     <script>
         /* Глобальный массив костяшек */
         var tiles = [];
+        
         /* Глобальный массив freeCell с координатами свободной ячейки */
         var freeCell = {
             y: 3,
             x: 3
         };
+        
         /* Переменная для проверки на собранность, false служит для 
         избежания проверки на собранность во время перемешивания */
         var shuffled = false;
@@ -110,7 +113,8 @@
             cell.classList.add("field__cell", "field__cell--null");
             return cell;
         }
-
+        
+        /* Функция устанавливающая  расстояния между ячейками
         function setCellOffset(cell) {
             /* + "px" необходимо, так как это значение своиства CSS */
             cell.style.left = (15 + (15 + 81.25) * cell.x) + "px";

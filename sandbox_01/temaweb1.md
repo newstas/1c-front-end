@@ -515,7 +515,7 @@ DNS-сервер выполняет этот запрос. Вторичный DN
 
 - **Minimum TTL** – время жизни кэша для негативного ответа на запрос в зонe.
 
-[Подробнее](https://help.reg.ru/hc/ru/articles/4408047470865)
+[Подробнее][ref_001]
 
 ## Источники
 
@@ -528,3 +528,7 @@ DNS-сервер выполняет этот запрос. Вторичный DN
 [Как очистить кэш браузера](https://help.reg.ru/hc/ru/articles/4408046921745/)
 
 [Настройка сети: что такое VPN](https://www.reg.ru/blog/nastrojka-seti-chto-takoe-vpn/?_gl=1*d5qyro*_ga*MTQ1NDQyNTU0My4xNjQ3MjYxODY0*_ga_N9GCQPR82H*MTY0NzI2MTg2My4xLjEuMTY0NzI2NDc4OS41Ng..)
+
+[//]: # (Это реферальные ссылки reference links которые поозоватеь не видит и комментарий тоже не видит)
+
+[ref_001](https://help.reg.ru/hc/ru/articles/4408047470865)

@@ -661,4 +661,4 @@ DNS-сервер выполняет этот запрос. Вторичный DN
 [ref_005]:<https://www.mail-tester.com/>
 [ref_006]:<https://www.unisender.com/ru/blog/sovety/putevoditel-po-dmarc-chto-eto-zachem-nuzhno-i-kak-propisat/>
 [ref_007]:<https://www.unisender.com/ru/glossary/dmarc/#anchor-1>
-[ref_008];<https://www.nslookup.io/>
+[ref_008]:<https://www.nslookup.io/>

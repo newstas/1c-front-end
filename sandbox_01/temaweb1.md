@@ -396,7 +396,7 @@ A-записи домена. Проще говоря, с сервера, где 
 
 Имя записи | Тип записи | Значение
 ---        | ---        | ---
-site.ru    | TXT        | v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com`
+site.ru    | TXT        | v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com
 
 `v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com`
 

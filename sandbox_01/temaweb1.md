@@ -561,7 +561,9 @@ site.ru    | TXT        | `v=DMARC1; p=reject; rua=mailto:dmarc@yourdomain.com`
 писем. 
 
 В качестве общего руководства вам не нужна запись DMARC, если вы отправляете электронные 
-письма с домена, который вы не контролируете, например с адреса электронной почты Gmail. 
+письма с домена, который вы не контролируете, например с адреса электронной почты Gmail.
+
+[Проверка записей DMARC][ref_011] 
 
 [Путеводитель по DMARC][ref_007]
 
@@ -688,3 +690,4 @@ DNS-сервер выполняет этот запрос. Вторичный DN
 [ref_008]:<https://www.nslookup.io/>
 [ref_009]:<https://wpmailsmtp.com/fix-multiple-spf-records/>
 [ref-010]:<https://mxtoolbox.com/spf.aspx>
+[ref_011]:<https://dmarcian.com/dmarc-inspector/>

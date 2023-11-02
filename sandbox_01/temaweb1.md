@@ -301,7 +301,7 @@ site.ru   | MX         | 15        | `mx2.hosting.reg.ru`
 Предпочтение | Имя хоста     | IP-адрес     | Название организации
 ---          | ---           | ---          | ---
 10 	         | mx1.beget.com | 185.78.30.48 | Hosting servers
--            | -             | 185.78.30.71 | Hosting servers
+0            | 0             | 185.78.30.71 | Hosting servers
 -            | -             | 5.101.158.68 | Hosting servers
 20 	         | mx2.beget.com | 185.78.30.71 | Hosting servers
              |               | 185.78.30.48 | Hosting servers

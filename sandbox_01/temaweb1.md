@@ -755,11 +755,10 @@ DNS-сервер выполняет этот запрос. Вторичный DN
 title: "<nobr>: The Non-Breaking Text element"
 slug: Web/HTML/Element/nobr
 page-type: html-element
-status: deprecated
+status:
+  - deprecated
 browser-compat: html.elements.nobr
 ---
-
-{{HTMLSidebar}}{{deprecated_header}}
 
 
 ## Источники

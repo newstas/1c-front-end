@@ -760,6 +760,8 @@ status:
 browser-compat: html.elements.nobr
 ---
 
+{{HTMLSidebar}}{{deprecated_header}}
+
 
 ## Источники
 

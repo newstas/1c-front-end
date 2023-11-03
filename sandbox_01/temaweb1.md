@@ -751,6 +751,16 @@ DNS-сервер выполняет этот запрос. Вторичный DN
 
 Этот инструмент позволяет искать и находить ошибки в записях SPF, DMARC, DKIM, BIMI, MTA-STS, TLS-RPT, NS, MX DNS вашего домена в одном месте. Она также позволяет просматривать информацию о whois вашего домена и статус черного списка ваших IP-адресов, PTR DNS записи и результаты проверки FCrDNS.
 
+---
+title: "<nobr>: The Non-Breaking Text element"
+slug: Web/HTML/Element/nobr
+page-type: html-element
+status:
+  - deprecated
+browser-compat: html.elements.nobr
+---
+
+
 ## Источники
 
 [Набора инструментов администратора Google][ref_003]

@@ -843,3 +843,12 @@ DNS Checker предоставляет бесплатную службу про�
 [ref_012]:<https://powerdmarc.com/ru/dkim-record-generator/>
 [ref_013]:<https://powerdmarc.com/ru/power-dmarc-toolbox/>
 [ref_014]:<https://dnschecker.org/>
+
+
+* a
+* * * * *
+* b
+
+* a
+* 
+* b

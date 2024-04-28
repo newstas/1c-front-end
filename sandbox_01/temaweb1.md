@@ -21,6 +21,7 @@
 [Корневая папка](#Корневая-папка)
 
 [Домен - доменное имя](#Домен---доменное-имя)
+
 [DNS - Domain Name System](#DNS---Domain-Name-System)
 
 [Ресурсные записи DNS](#Ресурсные-записи-DNS)
@@ -32,8 +33,8 @@
 - [Записи SPF, DKIM и DMARC](#Записи-SPF-DKIM-и-DMARC)
   - [Запись SPF](#Запись-SPF)
   - [Запись DKIM](#Запись-DKIM)
-  - [Заголовок](#header-title)
-- [Заголовок](#header-title)
+  - [Запись DMARC](#Запись-DMARC)
+- [Записи NS, PTR, SOA](#Записи-NS-PTR-SOA)
 
 
 

@@ -31,6 +31,10 @@
 - [Запись MX](#Запись-MX)
 - [Запись TXT](#Запись-TXT)
 - [Записи SPF, DKIM и DMARC](#Записи-SPF-DKIM-и-DMARC)
+  - [Запись SPF](#Запись SPF)
+
+
+Запись SPF
 
 
 [Заголовок](#header-title)

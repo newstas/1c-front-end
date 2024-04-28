@@ -22,7 +22,7 @@
 
 [Домен - доменное имя](#Домен---доменное-имя)
 
-[DNS (Domain Name System)](#DNS-(Domain-Name-System))
+[DNS (Domain Name System)](#DNS-(-Domain-Name-System-))
 
 [Ресурсные записи DNS](#Ресурсные-записи-DNS)
 

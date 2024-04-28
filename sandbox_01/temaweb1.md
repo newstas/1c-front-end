@@ -18,13 +18,11 @@
 
 # Теория
 
-[Корневая папка](#Корневая папка)
+[Корневая папка](#Корневая-папка)
 
-[Домен (доменное имя)](#Домен (доменное имя))
+[Домен (доменное имя)](#Домен-(доменное-имя))
 
-[DNS (Domain Name System)](#DNS (Domain Name System))
-
-DNS (Domain Name System)
+[DNS (Domain Name System)](#DNS-(Domain-Name-System))
 
 
 # Корневая папка

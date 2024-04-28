@@ -22,6 +22,10 @@
 
 [Домен (доменное имя)](#Домен (доменное имя))
 
+[DNS (Domain Name System)](#DNS (Domain Name System))
+
+DNS (Domain Name System)
+
 
 # Корневая папка
 

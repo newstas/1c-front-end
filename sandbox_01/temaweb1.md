@@ -30,7 +30,7 @@
 - [Запись CNAME](#Запись-CNAME)
 - [Запись MX](#Запись-MX)
 - [Запись TXT](#Запись-TXT)
-- [Записи SPF, DKIM и DMARC](#Записи-SPF-,-DKIM-и-DMARC)
+- [Записи SPF, DKIM и DMARC](#Записи-SPF-DKIM-и-DMARC)
 
 
 [Заголовок](#header-title)

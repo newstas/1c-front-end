@@ -339,3 +339,5 @@ document.querySelector('iframe').addEventListener('load', function() {
 
 [<iframe>: элемент встроенного фрейма MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#a_simple_iframe)
 
+[GitHub — примеры кода, демонстрирующие srcdoc на практике](https://gist.github.com/search?q=iframe+srcdoc)
+

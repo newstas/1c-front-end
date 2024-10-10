@@ -335,6 +335,8 @@ document.querySelector('iframe').addEventListener('load', function() {
 
 [Доктайп iframe](https://htmlacademy.ru/blog/html-tags/iframe)
 
+[SRC и SRCDOC в IFRAME HTML5: разница и применение](https://sky.pro/wiki/html/src-i-srcdoc-v-iframe-html-5-raznitsa-i-primenenie/)
+
 [От <object> к <iframe> - другие технологии внедрения MDN](https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
 
 [<iframe>: элемент встроенного фрейма MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#a_simple_iframe)

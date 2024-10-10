@@ -34,6 +34,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 ```
+[![1-2200w.webp](https://i.postimg.cc/Gh8PYBqP/1-2200w.webp)](https://postimg.cc/D8hb3zVm)
 
 Сегодня доктайп по спецификации нужен исключительно потому, что без него браузеры переключатся 
 в режим совместимости со **старым кодом** (quirks mode). Поверьте, вы не хотите оказаться в режиме совместимости. 

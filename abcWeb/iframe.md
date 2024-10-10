@@ -8,12 +8,12 @@
 
 **Простейший пример** использования `<iframe>`:
 
-```
+```html
 <iframe src="https://example.com" width="600" height="400"></iframe>
 ```
 
 **Еще пример**. С помощью такого нехитрого кода мы можем встроить карту размером 560 на 400 пикселей на любую страницу:
-```
+```html
 <iframe
   id="inlineFrameExample"
   title="Inline Frame Map"
@@ -119,7 +119,9 @@
 
 Не забывайте об универсальных атрибутах, таких как `title`, которые способствуют улучшению доступности.
 
-`<iframe src="https://example.com" title="Example Content"></iframe>`
+```html
+<iframe src="https://example.com" title="Example Content"></iframe>
+```
 
 
 `name`
@@ -135,7 +137,7 @@
 ## Стилизация
 
 `<iframe>` можно стилизовать, как и любой другой элемент. Но помните, что стили вашей родительской страницы не применяются к содержимому `<iframe>`, и вы не сможете его стилизовать через CSS в родительском документе.
-```
+```html
 iframe {
   border: none; 
 }
@@ -144,7 +146,7 @@ iframe {
 ## Отслеживание событий загрузки
 
 Вы можете отслеживать событие load для <iframe>, чтобы знать, когда встроенный контент загружен.
-```
+```html
 document.querySelector('iframe').addEventListener('load', function() {
   console.log('Iframe is loaded!'); 
 });

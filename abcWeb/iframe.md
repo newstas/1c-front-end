@@ -53,9 +53,9 @@
 </iframe>
 ```
 
-Пример с сайтом example.org
+**Пример с сайтом example.org**
 
-В этом примере страница [https://example.org](https://example.org) встраивается в `iframe`. Это распространенный вариант 
+В этом примере страница [example.org](https://example.org) встраивается в `iframe`. Это распространенный вариант 
 использования `iframe`: встраивание контента с другого сайта.
 ```html
 <iframe
@@ -65,13 +65,6 @@
   src="https://example.org"
 </iframe>
 ```
-
-<iframe
-  title="iframe Простой пример"
-  width="400"
-  height="300">
-  src="https://example.org"
-</iframe>
 
 ### Как понять
 

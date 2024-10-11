@@ -299,7 +299,7 @@ document.querySelector('iframe').addEventListener('load', function() {
 по сравнению с работой с заранее закодированными **data URI**.
 
 
-# От <object> к <iframe> - другие технологии внедрения
+# От `<object>` к `<iframe>` - другие технологии внедрения
 
 Они позволяют встраивать в ваши веб-страницы самые разнообразные типы контента: 
 `<iframe>`, `<embed>` и `<object>`. 

@@ -46,4 +46,4 @@ Base64 относится к группе транспортных кодиро�
 для использования в URL, по этой причине они могут быть использованы и в Data URL.
 
 
-[Data URL MDN}(https://developer.mozilla.org/ru/docs/Web/URI/Schemes/data#%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%81)
+[Data URL MDN](https://developer.mozilla.org/ru/docs/Web/URI/Schemes/data#%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%81)

@@ -157,6 +157,7 @@ iframe {
 
 **CSS**
 ```css
+iframe {
   border: 1px solid black;
   width: 100%; /* имеет приоритет над шириной, установленной с помощью атрибута ширины HTML */
 }

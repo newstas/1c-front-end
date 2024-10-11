@@ -155,6 +155,13 @@ iframe {
 
 **Пример стилизации**:
 
+**CSS**
+```css
+  border: 1px solid black;
+  width: 100%; /* имеет приоритет над шириной, установленной с помощью атрибута ширины HTML */
+}
+```
+
 **HTML**
 ```HTML
 <iframe
@@ -165,13 +172,6 @@ iframe {
   allow="fullscreen"
   src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
 </iframe>
-```
-
-**CSS**
-```css
-  border: 1px solid black;
-  width: 100%; /* имеет приоритет над шириной, установленной с помощью атрибута ширины HTML */
-}
 ```
 
 

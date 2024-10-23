@@ -83,4 +83,6 @@ set DATABASE_URL="your_database_url_here"
 
 [Что такое переменные окружения и как их использовать — Sky.pro](https://sky.pro/media/chto-takoe-peremennye-okruzheniya-i-kak-ih-ispolzovat/)
 
+[Arch Linu](https://wiki.archlinux.org/title/Locale_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)
+
 

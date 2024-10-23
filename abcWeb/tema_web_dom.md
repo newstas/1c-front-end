@@ -9,11 +9,14 @@
 
 ## Синтаксис	
 
+```
 // Получение содержимого элемента
-`var content = element.innerHTML;`
- 
+var content = element.innerHTML;
+````
+```
 // Установка содержимого для элемента
-`element.innerHTML = content;`
+element.innerHTML = content;
+```
 
 
 ## Описание
